@@ -15,7 +15,7 @@ DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = [('Home', '/'),
              ('Tutorial', '/tutorial'),
              ('Workshop', '/workshop'),
-             ('BOF', '/BOF'),
+             ('BoF', '/bof'),
              ('News', '/archives.html')]
 
 # Feed generation is usually not desired when developing
