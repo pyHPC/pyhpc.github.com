@@ -31,7 +31,8 @@ remote: Total 74 (delta 3), reused 73 (delta 2)
 Receiving objects: 100% (74/74), 248.52 KiB | 0 bytes/s, done.
 Resolving deltas: 100% (3/3), done.
 Checking connectivity... done
-$ cd conference.scipy.org
+$ cd pyhpc.github.com
+$ git checkout source
 ```
 
 * [Create a new branch](https://help.github.com/articles/fork-a-repo#create-branches) with the name of your news item.
@@ -70,6 +71,7 @@ $ cat << EOF > 2013-10-25-test.md
 ```
 $ git clone git@github.com:pyHPC/pyhpc.github.com
 $ cd pyhpc.github.com
+$ git checkout source
 ```
 
 

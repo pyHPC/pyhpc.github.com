@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyHPC</title><link href="http://pyhpc.org/" rel="alternate"></link><link href="http://pyhpc.org/feeds/news.atom.xml" rel="self"></link><id>http://pyhpc.org/</id><updated>2013-11-13T00:00:00+01:00</updated><entry><title>Python at SC 13</title><link href="http://pyhpc.org/python-at-sc-13.html" rel="alternate"></link><updated>2013-11-13T00:00:00+01:00</updated><author><name>Andy R. Terrel &lt;andy.terrel@gmail.com&gt;</name></author><id>tag:pyhpc.org,2013-11-13:python-at-sc-13.html</id><summary type="html">&lt;p&gt;This year, just as the last few, will be another banner year for the Python programming language at Supercomputing. There will be the usually trifecta of Tutorial, Workshop, and BoF. This year the Workshop and Tutorial are full days. Sorry for the scheduling snafu with the Workshop and Tutorial overlappin, out of my control. I'm also happy to see several python based companies on the exhibit floor.&lt;/p&gt;
+&lt;p&gt;Let me know if there is anything else to put here!&lt;/p&gt;
+&lt;h3&gt;Exhibitors / Emerging Tech:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://iebms.heiexpo.com/iebms/oep/oep_p2_details.aspx?sessionid=famejkfemei6eiofckfgo&amp;amp;OrderNbr=6477"&gt;Enthought Inc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://sc13.supercomputing.org/schedule/event_detail.php?evid=pec192"&gt;UQ Foundation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Technical Program&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://sc13.supercomputing.org/schedule/event_detail.php?evid=tut174"&gt;Tutorial, Mon, Nov 18, 8:30 - 17:00&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://sc13.supercomputing.org/schedule/event_detail.php?evid=wksp119"&gt;Workshop, Mon, Nov 18, 9:00 - 17:30&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://sc13.supercomputing.org/schedule/event_detail.php?evid=bof142"&gt;BoF, Tues, Nov 19, 12:15 - 13:15&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="Python"></category><category term="SC13"></category></entry></feed>
