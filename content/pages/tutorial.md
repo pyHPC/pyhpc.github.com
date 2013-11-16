@@ -10,7 +10,9 @@ Almost every year since 2009 there has been a Python tutorial at SC.  The conten
 
 <table>
 <tr><th>Time</th><th>Presenter</th><th>Topic</th><th>Materials</th></tr>
-<tr><td>08:30 - 10:00</td><td>Andy R. Terrel</td><td>Introduction to Python</td><td><a href="/static/tutorial/IntroducingPython/slides/1_Intro.pdf">[pdf]</a></td></tr>
+<tr><td>08:30 - 10:00</td><td>Andy R. Terrel</td><td>Introduction to
+Python</td><td><a
+href="/static/tutorial/IntroducingPython/slides/1_Intro.html">[html]</a>, <a href="/static/tutorial/IntroducingPython/slides/1_Intro.pdf">[pdf]</a></td></tr>
 <tr><td>10:00 - 10:30</td><td></td><td>Break</td><td></td></tr>
 <tr><td>10:30 - 12:00</td><td>Kurt Smith</td><td>Speeding Python with Cython</td><td><a href="/static/tutorial/SpeedingPython/slides/2_Cython.pdf">[pdf]</a><td></td></tr>
 <tr><td>10:00 - 10:30</td><td></td><td>Lunch</td></td></tr>
