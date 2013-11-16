@@ -16,7 +16,7 @@ Save_as: workshop/index.html
 <dt>9:00-9:10 Introduction</dt>
 <dd>Andreas Schreiber and William Scullin</dd>
 
-<dt>:10-9:30 Keynote - NumFOCUS: A Foundation Supporting Open Scientific Software</dt>
+<dt>9:10-9:30 Keynote - NumFOCUS: A Foundation Supporting Open Scientific Software</dt>
 <dd>Matthew Turk for Anthony Scopatz and NumFOCUS</dd>
 
 <dt>9:30-10:10 High-Performance Python-based Simulations of Pressure and Temperature Waves in a Trace Gas Sensor</dt>
@@ -27,7 +27,7 @@ Save_as: workshop/index.html
 <dt>10:30-11:10 Doubling the Performance of Python/NumPy with less than 100 SLOC</dt>
 <dd> Simon A. F. Lund, Kenneth Skovhede, Mads R. B. Kristensen and Brian Vinter</dd>
 
-<dt>1:10-11:50 ClusterShell, Python library and tools for scalable cluster administration</dt>
+<dt>11:10-11:50 ClusterShell, Python library and tools for scalable cluster administration</dt>
 <dd>Stephane Thiell, Aurelien Degremont and Henri Doreau</dd>
 
 <dt>11:50-13:00 Lunch Break</dt>
@@ -49,7 +49,7 @@ Save_as: workshop/index.html
 <dt>16:10-16:50 Compiling Python Modules to Native Parallel Modules Using Pythran and OpenMP Annotations</dt>
 <dd>Serge Guelton, Pierrick Brunet and Mehdi Amini</dd>
 
-<dt>6:50-17:30 Discussion and Closing</dt>
+<dt>16:50-17:30 Discussion and Closing</dt>
 <dd>Andreas Schreiber and William Scullin</dd>
 </dl>
 
