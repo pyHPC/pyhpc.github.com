@@ -16,9 +16,9 @@ Let me know if there is anything else to put here!
 
 ### Technical Program
 
-* [Tutorial, Mon, Nov 18, 8:30 - 17:00](http://sc13.supercomputing.org/schedule/event_detail.php?evid=tut174)
-* [Workshop, Mon, Nov 18, 9:00 - 17:30](http://sc13.supercomputing.org/schedule/event_detail.php?evid=wksp119)
-* [BoF, Tues, Nov 19, 12:15 - 13:15](http://sc13.supercomputing.org/schedule/event_detail.php?evid=bof142)
+* [Tutorial, Mon, Nov 18, 8:30 - 17:00](|filename|/sc14/tutorial.md)
+* [Workshop, Mon, Nov 18, 9:00 - 17:30](|filename|/sc14/workshop.md)
+* [BoF, Tues, Nov 19, 12:15 - 13:15](|filename|/sc14/bof.md)
 
 
 

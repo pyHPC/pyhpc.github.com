@@ -1,6 +1,6 @@
-Title: Tutorial
-URL: tutorial
-Save_as: tutorial/index.html
+Title: SC13 PyHPC Tutorial
+URL: sc13/tutorial
+Save_as: sc13/tutorial/index.html
 
 [Mon, Nov 18, 8:30 - 17:00](http://sc13.supercomputing.org/schedule/event_detail.php?evid=tut174)
 

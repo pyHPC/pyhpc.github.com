@@ -1,6 +1,6 @@
-Title: 2013 Python in HPC Workshop
-URL: workshop
-Save_as: workshop/index.html
+Title: SC13 PyHPC Workshop
+URL: sc13/workshop
+Save_as: sc13/workshop/index.html
 
 [Mon, Nov 18, 9:00 - 17:30](http://sc13.supercomputing.org/schedule/event_detail.php?evid=wksp119)  
 

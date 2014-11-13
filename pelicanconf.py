@@ -7,11 +7,14 @@ AUTHOR = u'Andy R. Terrel'
 SITENAME = u'PyHPC'
 SITEURL = ''
 
-TIMEZONE = 'Europe/Paris'
+PATH = 'content'
+
+TIMEZONE = 'US/Central'
 
 DEFAULT_LANG = u'en'
 
 DISPLAY_PAGES_ON_MENU = False
+PAGE_PATHS = ['pages']
 MENUITEMS = [('Home', '/'),
              ('Tutorial', '/tutorial'),
              ('Workshop', '/workshop'),
@@ -22,6 +25,8 @@ MENUITEMS = [('Home', '/'),
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
 
 
 # STATIC_OUT_DIR requires pelican 3.3
