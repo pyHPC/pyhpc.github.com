@@ -1,5 +1,7 @@
 Title: SC14 Python in HPC Workshop
 URL: sc14/workshop
+Save_as: sc14/workshop/index.html
+
 
 [Mon, Nov 17, 9:00 - 17:30](http://sc14.supercomputing.org/schedule/event_detail?evid=wksp116)  
 
