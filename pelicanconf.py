@@ -16,9 +16,9 @@ DEFAULT_LANG = u'en'
 DISPLAY_PAGES_ON_MENU = False
 PAGE_PATHS = ['pages']
 MENUITEMS = [('Home', '/'),
-             ('Tutorial', 'sc14/tutorial'),
-             ('Workshop', 'sc14/workshop'),
-             ('BoF', 'sc14/bof'),
+             ('Tutorial', '/sc14/tutorial'),
+             ('Workshop', '/sc14/workshop'),
+             ('BoF', '/sc14/bof'),
              ('News', '/archives.html')]
 
 # Feed generation is usually not desired when developing
