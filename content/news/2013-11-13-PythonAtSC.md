@@ -16,9 +16,9 @@ Let me know if there is anything else to put here!
 
 ### Technical Program
 
-* [Tutorial, Mon, Nov 18, 8:30 - 17:00](|filename|/sc14/tutorial.md)
-* [Workshop, Mon, Nov 18, 9:00 - 17:30](|filename|/sc14/workshop.md)
-* [BoF, Tues, Nov 19, 12:15 - 13:15](|filename|/sc14/bof.md)
+* [Tutorial, Mon, Nov 18, 8:30 - 17:00](|filename|/pages/sc13/tutorial.md)
+* [Workshop, Mon, Nov 18, 9:00 - 17:30](|filename|/pages/sc13/workshop.md)
+* [BoF, Tues, Nov 19, 12:15 - 13:15](|filename|/pages/sc13/bof.md)
 
 
 

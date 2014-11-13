@@ -1,5 +1,5 @@
 Title: SC14 PyHPC Tutorial
-Save_as: sc14/tutorial/index.html
+URL: sc14/tutorial
 
 [Mon, Nov 17, 8:30 - 17:00](http://sc14.supercomputing.org/schedule/event_detail?evid=tut159)
 
