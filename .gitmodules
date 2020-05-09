@@ -1,0 +1,3 @@
+[submodule "theme/pyhpc"]
+	path = theme/pyhpc
+	url = git@github.com:jameshclrk/pyhpc-2020-theme
