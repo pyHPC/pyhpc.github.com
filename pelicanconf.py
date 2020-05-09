@@ -1,25 +1,54 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-import os
 
-AUTHOR = u'Andy R. Terrel'
-SITENAME = u'PyHPC'
+AUTHOR = 'PyHPC Committee'
+SITENAME = 'PyHPC'
 SITEURL = ''
 
-PATH = 'content'
+# Use the PyHPC theme
+THEME = './theme/pyhpc'
 
-TIMEZONE = 'US/Central'
+# Workshop Info
+WORKSHOP_SHORT_NAME = 'PyHPC 2020'
+WORKSHOP_FULL_NAME = '9th Workshop on Python for High-Performance and Scientific Computing'
+WORKSHOP_DATE = 'November 15, 2020'
+WORKSHOP_LOCATION = 'Atlanta, GA'
+WORKSHOP_CALL_TO_ACTION = ('Call for Participation', '#')
+# WORKSHOP_HERO_IMAGE = ""
+# WORKSHOP_HERO_IMAGE_ALT = ""
+WORKSHOP_CONF_LOGO = "static/images/sc20_color_black_hor@4x.png"
 
-DEFAULT_LANG = u'en'
+# Dates
+KEY_DATES = [('Paper Submissions Due', 'Friday 4 September', 'completed'),
+             ('Paper Author Notifications', 'Monday 28 September', 'in-progress'),
+             ('Lightning Talk Submissions Due', 'Thursday 1 October', ''),
+             ('Paper Camera Ready', 'Thursday 8 October', ''),
+             ('Lightning Talk Author Notifications', 'Monday 19 October', ''),
+             ('Workshop Date', 'Sunday 15 November', '')]
 
+# Social Media
+TWITTER_USERNAME = 'pyhpc'
+
+# Navbar items
 DISPLAY_PAGES_ON_MENU = False
 PAGE_PATHS = ['pages']
 MENUITEMS = [('Home', '/'),
-             ('Tutorial', '/sc14/tutorial'),
-             ('Workshop', '/sc14/workshop'),
-             ('BoF', '/sc14/bof'),
-             ('News', '/archives.html')]
+            ('News', '/archives')]
+
+# Pelican Settings
+PATH = 'content'
+TIMEZONE = 'US/Central'
+DEFAULT_LANG = 'en'
+
+ARTICLE_URL = '{date:%Y}/{slug}/'
+ARTICLE_SAVE_AS = '{date:%Y}/{slug}/index.html'
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
+TAG_URL = 'tag/{slug}/'
+TAG_SAVE_AS = 'tag/{slug}/index.html'
+CATEGORY_URL = 'category/{slug}/'
+CATEGORY_SAVE_AS = 'category/{slug}/index.html'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -28,22 +57,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-
-# STATIC_OUT_DIR requires pelican 3.3
-STATIC_OUT_DIR = ''
-STATIC_PATHS = ['CNAME', 'static']
-
-# Theme
-THEME_DIR = os.path.join(os.getcwd(), "theme")
-THEME_NAME = "tuxlite_zf"
-THEME = os.path.join(THEME_DIR, THEME_NAME)
-RECENT_ARTICLES_COUNT = 3
-
-# Blogroll
-#LINKS =  (('PyHPC2013 Workshop', 'http://www.dlr.de/sc/en/desktopdefault.aspx/tabid-8685/14943_read-37157/'),)
-
-# Social widget
-#SOCIAL = ()
+STATIC_PATHS = ['CNAME', 'static', 'robots.txt']
 
 DEFAULT_PAGINATION = 10
 
