@@ -28,7 +28,7 @@ KEY_DATES = [('Paper Submissions Due', 'Friday 4 September', 'completed'),
              ('Workshop Date', 'Sunday 15 November', '')]
 
 # Social Media
-TWITTER_USERNAME = 'pyhpc'
+TWITTER_USERNAME = 'PythonHPC'
 
 # Navbar items
 DISPLAY_PAGES_ON_MENU = False
