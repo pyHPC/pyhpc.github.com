@@ -10,14 +10,10 @@ SITEURL = ''
 THEME = './theme/pyhpc'
 
 # Workshop Info
-WORKSHOP_SHORT_NAME = 'PyHPC 2020'
-WORKSHOP_FULL_NAME = '9th Workshop on Python for High-Performance and Scientific Computing'
-WORKSHOP_DATE = 'November 15, 2020'
-WORKSHOP_LOCATION = 'Atlanta, GA'
-WORKSHOP_CALL_TO_ACTION = ('Call for Participation', '#')
-# WORKSHOP_HERO_IMAGE = ""
-# WORKSHOP_HERO_IMAGE_ALT = ""
-WORKSHOP_CONF_LOGO = "static/images/sc20_color_black_hor@4x.png"
+WORKSHOP_CALL_TO_ACTIONS = [
+    ("Call for Participation", "/cfp"),
+    ("Program", "/program"),
+]
 
 WORKSHOP_CONF_LOGO = (
     "static/images/sc20_color_black_hor@4x.png",
