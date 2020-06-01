@@ -1,3 +1,6 @@
 [submodule "theme/pyhpc"]
 	path = theme/pyhpc
 	url = git@github.com:jameshclrk/pyhpc-2020-theme
+[submodule "pelican-plugins"]
+	path = pelican-plugins
+	url = https://github.com/getpelican/pelican-plugins.git
