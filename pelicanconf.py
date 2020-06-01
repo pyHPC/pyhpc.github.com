@@ -79,13 +79,7 @@ CATEGORY_URL = "category/{slug}/"
 CATEGORY_SAVE_AS = "category/{slug}/index.html"
 
 PLUGIN_PATH = "./pelican-plugins"
-PLUGINS = ["shortcodes", "jinja2content"]
-SHORTCODES = {
-    # image
-    "image": "<img class={{class}} src=static/images/{{src}} alt={{alt}}></img>",
-    "important_link": "<a class='block mx-auto p-4 border border-gray-600 rounded-md text-xl text-center' href='{{url}}{{extra}}'>{{text}}</a>",
-    "important_email": "<a class='block mx-auto p-4 border border-gray-600 rounded-md text-xl text-center' href='mailto:{{email}}?subject={{subject}}'>{{text}}</a>",
-}
+PLUGINS = ["jinja2content"]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

@@ -31,7 +31,8 @@ Areas include, but are not limited to:
 
 We invite you to submit a paper with at least six (6) pages and up to ten (10) pages (including figures, tables and references) via the submission site:
 
-[% important_link url="#" text="Submit Paper" %]
+{% from 'important_macros.html' import important_link %}
+{{ important_link("#", "Submit Paper") }}
 
 All accepted papers will be published in the IEEE TCHPC Proceedings. The formatting instructions are available at the [IEEE website](http://www.ieee.org/conferences_events/conferences/publishing/templates.html). You can also use the template online on [Overleaf](https://www.overleaf.com/latex/templates/ieee-demo-template-for-computer-society-conferences/hzzszpqfkqky).
 
@@ -42,7 +43,8 @@ Please keep accessiblity in mind when preparing your paper, for example when cre
 ## Call for Lightning Talks
 We invite you to submit a one-page application for a five-minute presentation to:
 
-[% important_email email="some@email.example" subject="PyHPC20 Lightning Talk" text="Somebody's Name *some@email.example*" %]
+{% from 'important_macros.html' import important_email %}
+{{ important_email("some@email.example", "PyHPC20 Lightning Talk", "Somebody's Name *some@email.example*") }}
 
 Please include **PyHPC20 Lightning Talk** in the Subject heading of your submission email.
 
