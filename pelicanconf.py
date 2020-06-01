@@ -19,6 +19,20 @@ WORKSHOP_CALL_TO_ACTION = ('Call for Participation', '#')
 # WORKSHOP_HERO_IMAGE_ALT = ""
 WORKSHOP_CONF_LOGO = "static/images/sc20_color_black_hor@4x.png"
 
+WORKSHOP_CONF_LOGO = (
+    "static/images/sc20_color_black_hor@4x.png",
+    "SC20",
+    "https://sc20.supercomputing.org",
+)
+WORKSHOP_CONF_TEXT = "Held in conjunction with SC20: The International Conference for High Performance Computing, Networking, Storage and Analysis"
+
+WORKSHOP_PUB_LOGO = (
+    "static/images/tchpc_logo.png",
+    "IEEE TCHPC",
+    "https://tc.computer.org/tchpc/",
+)
+WORKSHOP_PUB_TEXT = "In cooperation with"
+
 # Dates
 KEY_DATES = [('Paper Submissions Due', 'Friday 4 September', 'completed'),
              ('Paper Author Notifications', 'Monday 28 September', 'in-progress'),
