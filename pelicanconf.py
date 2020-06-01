@@ -30,12 +30,16 @@ WORKSHOP_PUB_LOGO = (
 WORKSHOP_PUB_TEXT = "In cooperation with"
 
 # Dates
-KEY_DATES = [('Paper Submissions Due', 'Friday 4 September', 'completed'),
-             ('Paper Author Notifications', 'Monday 28 September', 'in-progress'),
-             ('Lightning Talk Submissions Due', 'Thursday 1 October', ''),
-             ('Paper Camera Ready', 'Thursday 8 October', ''),
-             ('Lightning Talk Author Notifications', 'Monday 19 October', ''),
-             ('Workshop Date', 'Sunday 15 November', '')]
+## Format (Event, Date, completed|in-progress)
+WORKSHOP_KEY_DATES = [
+    ("Submissions Open", "Monday 1 June", "completed"),
+    ("Paper Submissions Due", "Friday 4 September", "in-progress"),
+    ("Paper Author Notifications", "Monday 28 September", ""),
+    ("Lightning Talk Submissions Due", "Thursday 1 October", ""),
+    ("Paper Camera Ready", "Thursday 8 October", ""),
+    ("Lightning Talk Author Notifications", "Monday 19 October", ""),
+    ("Workshop Date", "Sunday 15 November", ""),
+]
 
 # Social Media
 TWITTER_USERNAME = 'PythonHPC'
