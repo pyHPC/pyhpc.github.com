@@ -41,14 +41,14 @@ PATH = 'content'
 TIMEZONE = 'US/Central'
 DEFAULT_LANG = 'en'
 
-ARTICLE_URL = '{date:%Y}/{slug}/'
-ARTICLE_SAVE_AS = '{date:%Y}/{slug}/index.html'
-PAGE_URL = '{slug}/'
-PAGE_SAVE_AS = '{slug}/index.html'
-TAG_URL = 'tag/{slug}/'
-TAG_SAVE_AS = 'tag/{slug}/index.html'
-CATEGORY_URL = 'category/{slug}/'
-CATEGORY_SAVE_AS = 'category/{slug}/index.html'
+PLUGIN_PATH = "./pelican-plugins"
+PLUGINS = ["shortcodes", "jinja2content"]
+SHORTCODES = {
+    # image
+    "image": "<img class={{class}} src=static/images/{{src}} alt={{alt}}></img>",
+    "important_link": "<a class='block mx-auto p-4 border border-gray-600 rounded-md text-xl text-center' href='{{url}}{{extra}}'>{{text}}</a>",
+    "important_email": "<a class='block mx-auto p-4 border border-gray-600 rounded-md text-xl text-center' href='mailto:{{email}}?subject={{subject}}'>{{text}}</a>",
+}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
