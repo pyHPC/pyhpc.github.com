@@ -2,14 +2,21 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'PyHPC Committee'
-SITENAME = 'PyHPC'
-SITEURL = ''
+AUTHOR = "PyHPC Committee"
+SITENAME = "PyHPC"
+SITEURL = ""
+SITELOGO = ("static/images/pyhpc_logo.png", SITENAME, "/")
 
 # Use the PyHPC theme
-THEME = './theme/pyhpc'
+THEME = "./theme/pyhpc"
 
 # Workshop Info
+WORKSHOP_SHORT_NAME = "PyHPC 2020"
+WORKSHOP_FULL_NAME = (
+    "9th Workshop on Python for High-Performance and Scientific Computing"
+)
+WORKSHOP_DATE = "November 15, 2020"
+WORKSHOP_LOCATION = "Atlanta, GA"
 WORKSHOP_CALL_TO_ACTIONS = [
     ("Call for Participation", "/cfp"),
     ("Program", "/program"),
@@ -42,10 +49,11 @@ WORKSHOP_KEY_DATES = [
 ]
 
 # Social Media
-TWITTER_USERNAME = 'PythonHPC'
+TWITTER_USERNAME = "PythonHPC"
 
 # Navbar items
 DISPLAY_PAGES_ON_MENU = False
+PAGE_PATHS = ["pages"]
 ## Format (Title, Link, External?)
 MENUITEMS = [
     ("Call for Participation", "/cfp", False),
@@ -56,9 +64,19 @@ MENUITEMS = [
 ]
 
 # Pelican Settings
-PATH = 'content'
-TIMEZONE = 'US/Central'
-DEFAULT_LANG = 'en'
+PATH = "content"
+TIMEZONE = "US/Central"
+DEFAULT_LANG = "en"
+
+ARTICLE_URL = "{date:%Y}/{slug}/"
+ARTICLE_SAVE_AS = "{date:%Y}/{slug}/index.html"
+ARCHIVES_SAVE_AS = 'updates/index.html'
+PAGE_URL = "{slug}/"
+PAGE_SAVE_AS = "{slug}/index.html"
+TAG_URL = "tag/{slug}/"
+TAG_SAVE_AS = "tag/{slug}/index.html"
+CATEGORY_URL = "category/{slug}/"
+CATEGORY_SAVE_AS = "category/{slug}/index.html"
 
 PLUGIN_PATH = "./pelican-plugins"
 PLUGINS = ["shortcodes", "jinja2content"]
@@ -76,7 +94,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-STATIC_PATHS = ['CNAME', 'static', 'robots.txt']
+STATIC_PATHS = ["CNAME", "static", "robots.txt"]
 
 DEFAULT_PAGINATION = 10
 
