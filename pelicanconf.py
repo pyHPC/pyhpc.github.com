@@ -46,9 +46,14 @@ TWITTER_USERNAME = 'PythonHPC'
 
 # Navbar items
 DISPLAY_PAGES_ON_MENU = False
-PAGE_PATHS = ['pages']
-MENUITEMS = [('Home', '/'),
-            ('News', '/archives')]
+## Format (Title, Link, External?)
+MENUITEMS = [
+    ("Call for Participation", "/cfp", False),
+    ("Program", "/program", False),
+    ("Updates", "/updates", False),
+    ("Registration", "https://sc20.supercomputing.org/attend/register", True),
+    ("@PythonHPC", "https://twitter.com/PythonHPC", True),
+]
 
 # Pelican Settings
 PATH = 'content'
