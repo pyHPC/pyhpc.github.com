@@ -4,27 +4,37 @@ Conf_Header: true
 URL: cfp
 Save_as: cfp/index.html
 
-## Intoduction
-The high-level programming language Python is well established with a large community in academia and industry. It is a general-purpose language adopted by many scientific applications. Examples are computational fluid dynamics, bio molecular simulation, machine learning, finance, or scientific visualization. Scientists, engineers, and educators use Python for data science, high-performance computing, and distributed computing. Traditionally, system administrators use Python for system management and automating administration tasks. Python is extremely easy to learn due to its very clean syntax and great readability. Therefore developers love Python as it facilitates writing sustainable and maintainable software systems. For the same reasons, Python is well suited for education at all levels.
+## Introduction
 
-The workshop will bring together researchers and practitioners using Python in all aspects of high performance and scientific computing. The goal is to present Python applications from mathematics, science, and engineering, to discuss general topics regarding the use of Python, and to share experiences using Python in scientific computing education.
+Python remains one of the fastest-growing programming languages with large communities of users in academia and industry. Its high-level syntax lowers the barrier to entry and improves productivity, making it the “go-to” language for data science, machine learning, whilst also remaining increasingly popular in high-performance and distributed computing.
 
-## Call for Submissions
-We encourage authors to submit novel research on the broad use of Python in primarily HPC contexts. Please submit either a paper or lightning talk related to Python usage in any of the following
-topics and application areas as well as on broader topics in business, science, technology, engineering, or education.
+PyHPC returns to Supercomputing to bring researchers, developers and Python practitioners to share their experiences using Python across a broad spectrum of disciplines and applications. The goal of the workshop is to provide a platform for the community to present novel Python applications from a wide range of disciplines, to enable topical discussions regarding the use of Python, and to share experiences using Python in scientific computing and education.
 
-Areas include, but are not limited to:
+In bringing the community together, the workshop aims to help address the needs of the community and to help the community shape future directions in high-performance and scientific computing.
 
-* High-Performance Computing, Big Data, Machine learning, and Data Science with Python
-* Hybrid programming and integration with other programming languages
-* Python compared to other languages for HPC and Data Science
-* Python for emerging computing paradigms (e.g., quantum computing, neuromorphic computing, Probabilistic and stochastic computing
-* Interactivity and reproducibility in HPC using Python
-* Performance analysis, profiling, and debugging
-* Administration of large HPC systems
-* Scientific and interactive visualization
-* Problem solving environments and frameworks
-* Diversity, inclusivity and education in HPC and scientific computing
+## Call for submissions
+
+We encourage authors to submit novel research on the broad use of Python in high-performance and scientific computing primarily, but also in data science, machine learning as well as broader topics in science, technology, engineering, education, mathematics or multidisciplinary topics.
+
+Please submit either a paper or lightning talk related to Python usage in any of the following topics and application areas, including but not limited to:
+
+ * High-Performance Computing, Big Data, Machine learning, and Data Science with Python
+ * Hybrid programming and integration with other programming languages
+ * Python compared to other languages for HPC and Data Science
+ * Python for emerging computing paradigms (e.g., quantum computing, neuromorphic computing, Probabilistic and stochastic computing
+ * Interactivity and reproducibility in HPC using Python
+ * Performance analysis, profiling, and debugging
+ * Administration of large HPC systems
+ * Scientific and interactive visualization
+ * Problem solving environments and frameworks
+ * Diversity, inclusivity and education in HPC and scientific computing
+
+
+Example submission ideas:
+
+ * Several libraries (e.g. Numba, Keras, Tensorflow) have emerged to close the gap between Python’s performance and those of classic high-performance computing languages in recent years. What are the novel applications and best practices using such libraries? 
+ * How is Python used within current and future computing ecosystems? For example, how does Python compare to emerging languages or its use on novel computing architectures, such as quantum computers or neuromorphic systems?
+ * What are the novel ways in which Python is being used to facilitate training and education in high-performance and scientific computing and how does this compare to other approaches?
 
 
 ## Call For Papers
@@ -32,19 +42,24 @@ Areas include, but are not limited to:
 We invite you to submit a paper with at least six (6) pages and up to ten (10) pages (including figures, tables and references) via the submission site:
 
 {% from 'important_macros.html' import important_link %}
-{{ important_link("#", "Submit Paper") }}
+{{ important_link("https://submissions.supercomputing.org", "Submit Paper") }}
 
 All accepted papers will be published in the IEEE TCHPC Proceedings. The formatting instructions are available at the [IEEE website](http://www.ieee.org/conferences_events/conferences/publishing/templates.html). You can also use the template online on [Overleaf](https://www.overleaf.com/latex/templates/ieee-demo-template-for-computer-society-conferences/hzzszpqfkqky).
 
 Authors will be able to provide up to one (1) additional pages for the Artifact Description (AD) appendix and, after paper acceptance, up to two (2) additional pages for the Artifact Evaluation (AE) appendix
 
-Please keep accessiblity in mind when preparing your paper, for example when creating graphs and images. See our [accessibility guidance](/accessibility).
+### Reproducibility and Transparency Statement
+For PyHPC 2020, we adopt the following approach based on the SC20 Transparency and Reproducibility Initiative:
+
+*Artifact Description Appendix*: We will use the format of the SC20 appendix (with minor revisions) for PyHPC 2020 submissions. Authors will provide the completed appendix (at most 2 pages), along with their submission.
+
+Please keep accessibility in mind when preparing your paper, for example when creating graphs and images. See our [accessibility guidance](/accessibility).
 
 ## Call for Lightning Talks
 We invite you to submit a one-page application for a five-minute presentation to:
 
 {% from 'important_macros.html' import important_email %}
-{{ important_email("some@email.example", "PyHPC20 Lightning Talk", "Somebody's Name *some@email.example*") }}
+{{ important_email("sc-ws-pyhpc2020@info.supercomputing.org", "PyHPC20 Lightning Talk", "PyHPC Organizing Committee *sc-ws-pyhpc2020@info.supercomputing.org*") }}
 
 Please include **PyHPC20 Lightning Talk** in the Subject heading of your submission email.
 
@@ -62,6 +77,7 @@ Please keep accessibility in mind when preparing presentation slides. See our [a
 | Lightning Talk Submissions Due      | Thursday 1 October  |
 | Paper Camera Ready                  | Thursday 8 October  |
 | Lightning Talk Author Notifications | Monday 19 October   |
+| Paper Presentations Slides          | Monday 2 November   |
 | Workshop Date                       | Sunday 15 November  |
 
 ## Organizing Committee
@@ -70,5 +86,3 @@ Please keep accessibility in mind when preparing presentation slides. See our [a
 * Neelofer Banglawala, *EPCC, University of Edinburgh (EPCC)*
 * Rosa M. Badia, *Barcelona Supercomputing Centre*
 * James Clark, *Hartree Centre - UK Research and Innovation*
-
-## Program Committee
