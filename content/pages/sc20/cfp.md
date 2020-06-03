@@ -77,7 +77,7 @@ Please keep accessibility in mind when preparing presentation slides. See our [a
 | Lightning Talk Submissions Due      | Thursday 1 October  |
 | Paper Camera Ready                  | Thursday 8 October  |
 | Lightning Talk Author Notifications | Monday 19 October   |
-| Paper Presentations Slides          | Monday 2 November   |
+| Paper Presentation Slides          | Monday 2 November   |
 | Workshop Date                       | Sunday 15 November  |
 
 ## Organizing Committee
