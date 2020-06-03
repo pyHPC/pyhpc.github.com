@@ -3,7 +3,7 @@ Description: Inclusivity and accessiblity commitment at SC20
 URL: inclusivity_statement
 Save_as: inclusivity_statement/index.html
 
-The PyHPC organizers are committed to inclusivity and accessibility:
+PyHPC is committed to inclusivity and accessibility
 
 * We will endeavour to ensure all workshop committees are diverse and inclusive
 * We will seek guidance on inclusivity and accessiblity best practices
