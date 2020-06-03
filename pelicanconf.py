@@ -18,7 +18,7 @@ WORKSHOP_FULL_NAME = (
 WORKSHOP_DATE = "November 15, 2020"
 WORKSHOP_LOCATION = "Atlanta, GA"
 WORKSHOP_CALL_TO_ACTIONS = [
-    ("Call for Participation", "/cfp"),
+    ("Call for Submissions", "/submissions"),
     ("Program", "/program"),
 ]
 
@@ -57,7 +57,7 @@ DISPLAY_PAGES_ON_MENU = False
 PAGE_PATHS = ["pages"]
 ## Format (Title, Link, External?)
 MENUITEMS = [
-    ("Call for Participation", "/cfp", False),
+    ("Call for Submissions", "/submissions", False),
     ("Program", "/program", False),
     ("Updates", "/updates", False),
     ("Registration", "https://sc20.supercomputing.org/attend/register", True),

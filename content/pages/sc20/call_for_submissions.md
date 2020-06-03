@@ -1,8 +1,8 @@
-Title: Call For Participation
+Title: Call for Submissions
 Subtitle: 9th Workshop on Python for High-Performance and Scientific Computing
 Conf_Header: true
-URL: cfp
-Save_as: cfp/index.html
+URL: submissions
+Save_as: submissions/index.html
 
 ## Introduction
 
@@ -12,7 +12,7 @@ PyHPC returns to Supercomputing to bring researchers, developers and Python prac
 
 In bringing the community together, the workshop aims to help address the needs of the community and to help the community shape future directions in high-performance and scientific computing.
 
-## Call for submissions
+## General Submission Guidance
 
 We encourage authors to submit novel research on the broad use of Python in high-performance and scientific computing primarily, but also in data science, machine learning as well as broader topics in science, technology, engineering, education, mathematics or multidisciplinary topics.
 
@@ -37,7 +37,7 @@ Example submission ideas:
  * What are the novel ways in which Python is being used to facilitate training and education in high-performance and scientific computing and how does this compare to other approaches?
 
 
-## Call For Papers
+### Call for Papers
 
 We invite you to submit a paper with at least six (6) pages and up to ten (10) pages (including figures, tables and references) via the submission site:
 
@@ -48,14 +48,14 @@ All accepted papers will be published in the IEEE TCHPC Proceedings. The formatt
 
 Authors will be able to provide up to one (1) additional pages for the Artifact Description (AD) appendix and, after paper acceptance, up to two (2) additional pages for the Artifact Evaluation (AE) appendix
 
-### Reproducibility and Transparency Statement
+#### Reproducibility and Transparency Statement
 For PyHPC 2020, we adopt the following approach based on the SC20 Transparency and Reproducibility Initiative:
 
 *Artifact Description Appendix*: We will use the format of the SC20 appendix (with minor revisions) for PyHPC 2020 submissions. Authors will provide the completed appendix (at most 2 pages), along with their submission.
 
 Please keep accessibility in mind when preparing your paper, for example when creating graphs and images. See our [accessibility guidance](/accessibility).
 
-## Call for Lightning Talks
+### Call for Lightning Talks
 We invite you to submit a one-page application for a five-minute presentation to:
 
 {% from 'important_macros.html' import important_email %}
@@ -63,7 +63,7 @@ We invite you to submit a one-page application for a five-minute presentation to
 
 Please include **PyHPC20 Lightning Talk** in the Subject heading of your submission email.
 
-### Acceptance Criteria
+#### Acceptance Criteria
 Lightning talks will be accepted in accordance with relevance to the workshop, the number of available time slots, and the order in which applications are received.
 
 Please keep accessibility in mind when preparing presentation slides. See our [accessibility guidance](/accessibility).
