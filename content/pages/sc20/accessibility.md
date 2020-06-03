@@ -2,7 +2,7 @@ Title: Accessibility Guidance
 URL: accessibility
 Save_as: accessibility/index.html
 
-In order for the workshop to be accessibile to everyone, we ask that you follow these guidelines when submitting your paper or lightning talk:
+In order for the workshop to be accessible to everyone, we ask that you follow these guidelines when submitting your paper or lightning talk:
 
  * allow for non-native English speakers by using simple language
  * allow for colour blind people by
@@ -14,7 +14,7 @@ In order for the workshop to be accessibile to everyone, we ask that you follow 
     * using uncluttered backgrounds
     * appropriately sizing text, especially on images
     * adding ALT-TEXT behind diagrams and images (for presentations that will be available online)
-    * adding a uniuqe title for each slide
+    * adding a unique title for each slide
     * use sufficient contrast between text and background colours
  * use simple table structures with clear headings
  * use larger font sizes and sufficient white space
