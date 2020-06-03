@@ -54,7 +54,7 @@ For PyHPC 2020, we adopt the following approach based on the SC20 Transparency a
 
 *Artifact Description Appendix*: We will use the format of the SC20 appendix (with minor revisions) for PyHPC 2020 submissions. Authors will provide the completed appendix (at most 2 pages), along with their submission.
 
-Please keep accessibility in mind when preparing your paper, for example when creating graphs and images. See our [accessibility guidance](/accessibility).
+Please keep accessibility in mind when preparing your paper, for example when creating graphs and images. See our [accessibility guidance](/accessibility_guidance).
 
 ### Call for Lightning Talks
 We invite you to submit a one-page application for a five-minute presentation to:
@@ -67,7 +67,7 @@ Please include **PyHPC20 Lightning Talk** in the Subject heading of your submiss
 #### Acceptance Criteria
 Lightning talks will be accepted in accordance with relevance to the workshop, the number of available time slots, and the order in which applications are received.
 
-Please keep accessibility in mind when preparing presentation slides. See our [accessibility guidance](/accessibility).
+Please keep accessibility in mind when preparing presentation slides. See our [accessibility guidance](/accessibility_guidance).
 
 ## Key Dates
 | Event                               | Date                |   
@@ -87,3 +87,5 @@ Please keep accessibility in mind when preparing presentation slides. See our [a
 * Neelofer Banglawala, *EPCC, University of Edinburgh (EPCC)*
 * Rosa M. Badia, *Barcelona Supercomputing Centre*
 * James Clark, *Hartree Centre - UK Research and Innovation*
+
+PyHPC is committed to [inclusivity and accessibility](/inclusivity_statement)
