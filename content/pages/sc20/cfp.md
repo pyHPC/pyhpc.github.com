@@ -42,7 +42,7 @@ Example submission ideas:
 We invite you to submit a paper with at least six (6) pages and up to ten (10) pages (including figures, tables and references) via the submission site:
 
 {% from 'important_macros.html' import important_link %}
-{{ important_link("https://submissions.supercomputing.org", "Submit Paper") }}
+{{ important_link("https://submissions.supercomputing.org/?page=Submit&id=SC20WorkshopPyHPCSubmission&site=sc20", "Submit Paper") }}
 
 All accepted papers will be published in the IEEE TCHPC Proceedings. The formatting instructions are available at the [IEEE website](http://www.ieee.org/conferences_events/conferences/publishing/templates.html). You can also use the template online on [Overleaf](https://www.overleaf.com/latex/templates/ieee-demo-template-for-computer-society-conferences/hzzszpqfkqky).
 
