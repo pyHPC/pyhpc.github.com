@@ -1,5 +1,6 @@
 Title: Call for Submissions
 Subtitle: 9th Workshop on Python for High-Performance and Scientific Computing
+Description: The Call for Submissions for the 9th Workshop on Python for High-Performance and Scientific Computing is now open!
 Conf_Header: true
 URL: submissions
 Save_as: submissions/index.html

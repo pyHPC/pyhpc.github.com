@@ -1,4 +1,5 @@
 Title: Accessibility Guidance
+Description: The accessibility guidelines for PyHPC 2020 are listed here.
 URL: accessibility
 Save_as: accessibility/index.html
 
