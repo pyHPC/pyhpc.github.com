@@ -37,6 +37,8 @@ WORKSHOP_PUB_LOGO = (
 )
 WORKSHOP_PUB_TEXT = "In cooperation with"
 
+WORKSHOP_INCLUSIVITY = 'PyHPC is committed to <a href="/inclusivity_statement">inclusivity and accessibility</a>.'
+
 # Dates
 ## Format (Event, Date, completed|in-progress)
 WORKSHOP_KEY_DATES = [
