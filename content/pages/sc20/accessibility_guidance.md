@@ -1,6 +1,6 @@
 Title: Accessibility Guidance
 Description: The accessibility guidelines for PyHPC 2020 are listed here.
-URL: accessibility
+URL: accessibility_guidance
 Save_as: accessibility_guidance/index.html
 
 In order for the workshop to be accessible to everyone, we ask that you follow these guidelines when submitting your paper or lightning talk:
