@@ -6,6 +6,7 @@ AUTHOR = "PyHPC Committee"
 SITENAME = "PyHPC"
 SITEURL = ""
 SITELOGO = ("static/images/pyhpc_logo.png", SITENAME, "/")
+SITEOGIMAGE = "static/images/pyhpc_logo_og.png"
 SITESUMMARY = "PyHPC 2020 - 9th Workshop on Python for High-Performance and Scientific Computing will be happening at Supercomputing 20 on November 15 2020."
 
 # Use the PyHPC theme
