@@ -70,7 +70,7 @@ Lightning talks will be accepted in accordance with relevance to the workshop, t
 Please keep accessibility in mind when preparing presentation slides. See our [accessibility guidance](/accessibility_guidance).
 
 ## Key Dates
-| Event                               | Date                |   
+| Event                               | Date                |
 | ----------------------------------- | ------------------- |
 | Submissions Open                    | Monday 1 June       |
 | Paper Submissions Due               | Friday 4 September  |
@@ -78,8 +78,8 @@ Please keep accessibility in mind when preparing presentation slides. See our [a
 | Lightning Talk Submissions Due      | Thursday 1 October  |
 | Paper Camera Ready                  | Thursday 8 October  |
 | Lightning Talk Author Notifications | Monday 19 October   |
-| Paper Presentation Slides          | Monday 2 November   |
-| Workshop Date                       | Sunday 15 November  |
+| Paper Presentation Slides           | Monday 2 November   |
+| Workshop Date                       | Friday 13 November  |
 
 ## Organizing Committee
 

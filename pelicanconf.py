@@ -7,7 +7,7 @@ SITENAME = "PyHPC"
 SITEURL = ""
 SITELOGO = ("static/images/pyhpc_logo.png", SITENAME, "/")
 SITEOGIMAGE = "static/images/pyhpc_logo_og.png"
-SITESUMMARY = "PyHPC 2020 - 9th Workshop on Python for High-Performance and Scientific Computing will be happening at Supercomputing 20 on November 15 2020."
+SITESUMMARY = "PyHPC 2020 - 9th Workshop on Python for High-Performance and Scientific Computing will be happening at Supercomputing 20 on November 13 2020."
 
 # Use the PyHPC theme
 THEME = "./theme/pyhpc"
@@ -17,8 +17,8 @@ WORKSHOP_SHORT_NAME = "PyHPC 2020"
 WORKSHOP_FULL_NAME = (
     "9th Workshop on Python for High-Performance and Scientific Computing"
 )
-WORKSHOP_DATE = "November 15, 2020"
-WORKSHOP_LOCATION = "Atlanta, GA"
+WORKSHOP_DATE = "November 13, 2020"
+WORKSHOP_LOCATION = "Virtually - Everywhere!"
 WORKSHOP_CALL_TO_ACTIONS = [
     ("Call for Submissions", "/submissions"),
     ("Program", "/program"),
@@ -50,7 +50,7 @@ WORKSHOP_KEY_DATES = [
     ("Paper Camera Ready", "Thursday 8 October", ""),
     ("Lightning Talk Author Notifications", "Monday 19 October", ""),
     ("Paper Presentation Slides", "Monday 2 November", ""),
-    ("Workshop Date", "Sunday 15 November", ""),
+    ("Workshop Date", "Friday 13 November", ""),
 ]
 
 # Social Media
