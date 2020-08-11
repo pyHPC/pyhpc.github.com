@@ -73,7 +73,7 @@ Please keep accessibility in mind when preparing presentation slides. See our [a
 | Event                               | Date                |
 | ----------------------------------- | ------------------- |
 | Submissions Open                    | Monday 1 June       |
-| Paper Submissions Due               | Friday 4 September  |
+| Paper Submissions Due               | Friday 11 September |
 | Paper Author Notifications          | Monday 28 September |
 | Lightning Talk Submissions Due      | Thursday 1 October  |
 | Paper Camera Ready                  | Thursday 8 October  |

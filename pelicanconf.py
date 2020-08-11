@@ -44,7 +44,7 @@ WORKSHOP_INCLUSIVITY = 'PyHPC is committed to <a href="/inclusivity_statement">i
 ## Format (Event, Date, completed|in-progress)
 WORKSHOP_KEY_DATES = [
     ("Submissions Open", "Monday 1 June", "completed"),
-    ("Paper Submissions Due", "Friday 4 September", "in-progress"),
+    ("Paper Submissions Due", "Friday 11 September", "in-progress"),
     ("Paper Author Notifications", "Monday 28 September", ""),
     ("Lightning Talk Submissions Due", "Thursday 1 October", ""),
     ("Paper Camera Ready", "Thursday 8 October", ""),
