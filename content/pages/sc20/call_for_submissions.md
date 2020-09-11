@@ -88,4 +88,15 @@ Please keep accessibility in mind when preparing presentation slides. See our [a
 * Rosa M. Badia, *Barcelona Supercomputing Centre*
 * James Clark, *Hartree Centre - UK Research and Innovation*
 
+## Program Committee
+
+* Bill Spotz, *Department of Energy*
+* Rollin Thomas, *Lawrence Berkeley National Laboratory*
+* Laurie Stephey, *Lawrence Berkeley National Laboratory*
+* Adrian Jackson, *EPCC, University of Edinburgh (EPCC)*
+* Martin Callaghan, *University of Leeds*
+* Javier Conejero, *Barcelona Supercomputing Centre*
+* Elliot Slaughter, *Pygeon*
+* Dan Katz, *University of Illinois*
+
 PyHPC is committed to [inclusivity and accessibility](/inclusivity_statement)
