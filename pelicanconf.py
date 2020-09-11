@@ -40,6 +40,30 @@ WORKSHOP_PUB_TEXT = "In cooperation with"
 
 WORKSHOP_INCLUSIVITY = 'PyHPC is committed to <a href="/inclusivity_statement">inclusivity and accessibility</a>.'
 
+# Front page alert
+WORKSHOP_ALERT = (
+    "Attention",
+"""<div class="space-y-4">
+<p>Due to the unprecendented circumstances this year, SC20 will be held virtually.<br/>Please be aware of the following:</p>
+<div>
+<h3 class="font-bold">Paper submissions</h3>
+<ul class="pl-6 list-disc">
+   <li>Paper authors must pre-record and submit heir presentations by <span class="font-bold">Thursday 8 October</span>.</li>
+   <li>Presenters are expected to be available for the duration of their paper session. Question and answers will take place at the end of the session for all presentations given in the session.</li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold">Lightning talk submissions</h3>
+<ul class="pl-6 list-disc">
+   <li>Lightning talks will be presented live and will also be recorded live (no pre-recording needed).</li>
+   <li>Lightning talk presentation slides must be submitted by <span class="font-bold">Thursday 8 October</span>.</li>
+</ul>
+</div>
+<p>
+The SC20 Virtual team has provided guidance on how to prepare presentation submissions. <a class="font-bold hover:underline" href="https://drive.google.com/file/d/1fQIAQeEUVgtWLd7Z7BFtciomNnxTzug6/view?usp=sharing">For a preview of this guidance, please see here.</a></p>
+</div>"""
+)
+
 # Dates
 ## Format (Event, Date, completed|in-progress)
 WORKSHOP_KEY_DATES = [
