@@ -73,7 +73,7 @@ WORKSHOP_KEY_DATES = [
     ("Lightning Talk Submissions Due", "Thursday 1 October", ""),
     ("Lightning Talk Author Notifications", "Monday 5 October", ""),
     ("Paper Camera Ready", "Thursday 8 October", ""),
-    ("Paper Presentation Recording", "Thursday 8 October", ""),
+    ("Paper Presentation Recordings", "Thursday 8 October", ""),
     ("Lightning Talk Presentation Slides", "Thursday 8 October", ""),
     ("Workshop Date", "Friday 13 November", ""),
 ]

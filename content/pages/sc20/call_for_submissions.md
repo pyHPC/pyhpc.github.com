@@ -96,7 +96,7 @@ Please keep accessibility in mind when preparing presentation slides. See our [a
 * Adrian Jackson, *EPCC, University of Edinburgh (EPCC)*
 * Martin Callaghan, *University of Leeds*
 * Javier Conejero, *Barcelona Supercomputing Centre*
-* Elliot Slaughter, *Pygeon*
+* Elliot Slaughter, *Stanford University*
 * Dan Katz, *University of Illinois*
 
 PyHPC is committed to [inclusivity and accessibility](/inclusivity_statement)
