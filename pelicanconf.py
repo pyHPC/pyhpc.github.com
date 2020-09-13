@@ -48,7 +48,7 @@ WORKSHOP_ALERT = (
 <div>
 <h3 class="font-bold">Paper submissions</h3>
 <ul class="pl-6 list-disc">
-   <li>Paper authors must pre-record and submit heir presentations by <span class="font-bold">Thursday 8 October</span>.</li>
+   <li>Paper authors must pre-record and submit their presentations by <span class="font-bold">Thursday 8 October</span>.</li>
    <li>Presenters are expected to be available for the duration of their paper session. Question and answers will take place at the end of the session for all presentations given in the session.</li>
 </ul>
 </div>
@@ -68,8 +68,8 @@ The SC20 Virtual team has provided guidance on how to prepare presentation submi
 ## Format (Event, Date, completed|in-progress)
 WORKSHOP_KEY_DATES = [
     ("Submissions Open", "Monday 1 June", "completed"),
-    ("Paper Submissions Due", "Friday 11 September", "in-progress"),
-    ("Paper Author Notifications", "Monday 28 September", ""),
+    ("Paper Submissions Due", "Friday 11 September", "completed"),
+    ("Paper Author Notifications", "Monday 28 September", "in-progress"),
     ("Lightning Talk Submissions Due", "Thursday 1 October", ""),
     ("Lightning Talk Author Notifications", "Monday 5 October", ""),
     ("Paper Camera Ready", "Thursday 8 October", ""),
