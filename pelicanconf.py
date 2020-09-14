@@ -60,7 +60,7 @@ WORKSHOP_ALERT = (
 </ul>
 </div>
 <p>
-The SC20 Virtual team has provided guidance on how to prepare presentation submissions. <a class="font-bold hover:underline" href="https://drive.google.com/file/d/1fQIAQeEUVgtWLd7Z7BFtciomNnxTzug6/view?usp=sharing">For a preview of this guidance, please see here.</a></p>
+The SC20 Virtual team has provided guidance on how to prepare presentation submissions. <a class="font-bold hover:underline" href="https://drive.google.com/file/d/1LjW8Ij6bcOyFaeqna7GA5xEfuSp7ejUo/view?usp=sharing">For a preview of this guidance, please see here.</a></p>
 </div>"""
 )
 
