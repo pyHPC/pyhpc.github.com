@@ -69,13 +69,13 @@ The SC20 Virtual team has provided guidance on how to prepare presentation submi
 WORKSHOP_KEY_DATES = [
     ("Submissions Open", "Monday 1 June", "completed"),
     ("Paper Submissions Due", "Friday 11 September", "completed"),
-    ("Paper Author Notifications", "Monday 28 September", "in-progress"),
-    ("Lightning Talk Submissions Due", "Thursday 1 October", ""),
-    ("Lightning Talk Author Notifications", "Monday 5 October", ""),
-    ("Paper Camera Ready", "Thursday 8 October", ""),
-    ("Paper Presentation Recordings", "Thursday 8 October", ""),
-    ("Lightning Talk Presentation Slides", "Thursday 8 October", ""),
-    ("Workshop Date", "Friday 13 November", ""),
+    ("Paper Author Notifications", "Monday 28 September", "completed"),
+    ("Lightning Talk Submissions Due", "Thursday 1 October", "completed"),
+    ("Lightning Talk Author Notifications", "Monday 5 October", "completed"),
+    ("Paper Camera Ready", "Thursday 8 October", "completed"),
+    ("Paper Presentation Recordings", "Thursday 8 October", "completed"),
+    ("Lightning Talk Presentation Slides", "Thursday 8 October", "completed"),
+    ("Workshop Date", "Friday 13 November", "in-progress"),
 ]
 
 # Social Media
