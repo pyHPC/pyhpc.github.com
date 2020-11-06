@@ -119,6 +119,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 STATIC_PATHS = ["CNAME", "static", "robots.txt"]
+ARTICLE_EXCLUDES = ["static"]
+EXTRA_PATH_METADATA = {
+    'static/schedule2020/index.html': {'path': 'schedule2020/index.html'},
+    'static/feedback2020/index.html': {'path': 'feedback2020/index.html'},
+}
 
 DEFAULT_PAGINATION = 10
 
