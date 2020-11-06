@@ -1,5 +1,5 @@
 Title: Program
-Description: The program for PyHPC 2020 will be available closer to the workshop date.
+Description: PyHPC 2020 program
 URL: program
 Save_as: program/index.html
 <div class="flex flex-col py-3 px-2  border-b border-gray-500" style="margin-bottom:0 !important;">
@@ -365,22 +365,6 @@ Save_as: program/index.html
                 <span class="">Chris Dearden</span>
             </div>
         </div>
-        
-        </div>
-    </div>
-    </div>
-<div class="flex flex-col py-3 px-2  border-b border-gray-500" style="margin-bottom:0 !important;">
-    <div class="w-full flex flex-row justify-between">
-        <span class="text-sm uppercase tracking-wide">5:25pm - 5:40pm EST</span>
-        <span class="text-sm uppercase tracking-wide"></span>
-    </div>
-
-    <div class="flex-grow">
-        <div class="flex flex-col">
-            <span class="my-4 text-xl font-bold leading-tight">PyHPC 2020 Closing remarks</span>
-        </div>
-        <div class="space-y-2">
-        
         
         </div>
     </div>
