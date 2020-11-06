@@ -87,7 +87,7 @@ Please keep accessibility in mind when preparing presentation slides. See our [a
 * William Scullin, *Laboratory for Laser Energetics, University of Rochester*
 * Neelofer Banglawala, *EPCC, University of Edinburgh (EPCC)*
 * Rosa M. Badia, *Barcelona Supercomputing Centre*
-* James Clark, *Hartree Centre - UK Research and Innovation*
+* James Clark, *Zapata Computing* and *Hartree Centre - UK Research and Innovation*
 
 ## Program Committee
 
@@ -99,5 +99,6 @@ Please keep accessibility in mind when preparing presentation slides. See our [a
 * Javier Conejero, *Barcelona Supercomputing Centre*
 * Elliot Slaughter, *Stanford University*
 * Dan Katz, *University of Illinois*
+* Tim Powell, *Hartree Centre - UK Research and Innovation*
 
 PyHPC is committed to [inclusivity and accessibility](/inclusivity_statement)
