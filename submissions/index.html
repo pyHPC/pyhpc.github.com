@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Call for Submissions - PyHPC</title>
+    <meta name="title" content="Call for Submissions - PyHPC">
+    <meta name="description" content="The Call for Submissions for the 9th Workshop on Python for High-Performance and Scientific Computing is now open!">
+
+    <meta property="og:title" content="Call for Submissions - PyHPC">
+    <meta property="og:site_name" content="PyHPC">
+    <meta property="og:url" content="https://www.pyhpc.io/submissions">
+    <meta property="og:description" content="The Call for Submissions for the 9th Workshop on Python for High-Performance and Scientific Computing is now open!">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.pyhpc.io/static/images/pyhpc_logo_og.png">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@PythonHPC">
+
+    <link rel="stylesheet" href="https://www.pyhpc.io/theme/css/style.css" />
+    <link rel="stylesheet" href="https://www.pyhpc.io/theme/css/pygments.css" defer />
+    <script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.3/dist/alpine.min.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.3/dist/alpine-ie11.min.js" defer></script>
+
+    <link href="feeds/all.atom.xml" rel="alternate" title="PyHPC" type="application/atom+xml">
+</head>
+
+<body class="bg-gray-100">
+    <div class="flex flex-col h-screen justify-between">
+        <!-- Header and Navigation -->
+        <div class="w-full bg-white border-b border-gray-200">
+            <header x-data="{ open: false }"
+                class="flex flex-col max-w-screen-xl mx-auto px-6 py-2 lg:px-16 lg:py-2 md:items-center md:justify-between md:flex-row">
+                <div class="flex-1 flex justify-between items-center">
+                    <a class="py-2 border-b-2 border-transparent hover:border-indigo-400 h-12 p-1" href="/">
+    <img aria-hidden="true" class="h-full" alt="PyHPC Logo" src="https://www.pyhpc.io/static/images/pyhpc_logo.png" />
+    <span class="sr-only">PyHPC</span>
+</a>
+
+                    <button aria-label="Toggle navigation"
+                        class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
+                        <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                            <path x-show="!open" fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                            <path x-show="open" fill-rule="evenodd"
+                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+                <nav :class="{'flex': open, 'hidden': !open}"
+                    class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
+                    <a href="/submissions"
+                        class="md:p-4 py-3 px-0 border-b-2 border-transparent hover:border-indigo-400">
+                        Call for Submissions
+                    </a>
+                    <a href="/program"
+                        class="md:p-4 py-3 px-0 border-b-2 border-transparent hover:border-indigo-400">
+                        Program
+                    </a>
+                    <a href="/updates"
+                        class="md:p-4 py-3 px-0 border-b-2 border-transparent hover:border-indigo-400">
+                        Updates
+                    </a>
+                    <a href="https://sc20.supercomputing.org/attend/register"
+                        class="md:p-4 py-3 px-0 border-b-2 border-transparent hover:border-indigo-400">
+                        Registration
+                        <svg class="inline w-4 h-4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
+                    <a href="https://twitter.com/PythonHPC"
+                        class="md:p-4 py-3 px-0 border-b-2 border-transparent hover:border-indigo-400">
+                        @PythonHPC
+                        <svg class="inline w-4 h-4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
+                </nav>
+            </header>
+        </div>
+        <!-- Main content -->
+        <div class="container mx-auto max-w-screen-xl mb-auto" role="main">
+<article class="px-3 mx-auto max-w-3xl">
+    <h1 class="leading-tight text-2xl md:text-4xl font-semibold mb-4 mt-6 pb-2">
+        Call for Submissions:<br />9th Workshop on Python for High-Performance and Scientific Computing    </h1>
+<div
+    class="flex flex-col space-y-2 justify-between items-center sm:space-y-0 sm:flex-row sm:w-full">
+    <div class="flex flex-col">
+        <div class="flex items-center justify-start">
+            <svg class="h-6 w-6 inline mr-3" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                </path>
+            </svg>
+            <span>November 13, 2020</span>
+        </div>
+        <div class="flex items-center justify-start">
+            <svg class="h-6 w-6 inline mr-3" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                    d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                </path>
+            </svg>
+            <span>Virtually - Everywhere!</span>
+        </div>
+    </div>
+    <div class="flex flex-col items-center space-y-2 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-8">
+        <a class="py-2 border-b-2 border-transparent hover:border-indigo-400" href="https://sc20.supercomputing.org">
+            <img aria-hidden="true" class="w-32" alt="SC20 Logo" src="https://www.pyhpc.io/static/images/sc20_color_black_hor@4x.png">
+            <span class="sr-only">SC20</span>
+        </a>
+        <a class="py-2 border-b-2 border-transparent hover:border-indigo-400 space-y-1"
+            href="https://tc.computer.org/tchpc/">
+            <span class="text-base leading-none" aria-hidden="true">In cooperation with</span>
+            <img aria-hidden="true" class="w-24 mx-auto" alt="IEEE TCHPC Logo" src="https://www.pyhpc.io/static/images/tchpc_logo.png">
+            <span class="sr-only">In cooperation with IEEE TCHPC</span>
+        </a>
+    </div>
+</div>
+<div class="mt-4 text-base">
+    <span>Held in conjunction with SC20: The International Conference for High Performance Computing, Networking, Storage and Analysis</span>
+</div>
+    <div class="markdown">
+        <h2>Introduction</h2>
+<p>Python remains one of the fastest-growing programming languages with large communities of users in academia and industry. Its high-level syntax lowers the barrier to entry and improves productivity, making it the “go-to” language for data science, machine learning, whilst also remaining increasingly popular in high-performance and distributed computing.</p>
+<p>PyHPC returns to Supercomputing to bring researchers, developers and Python practitioners to share their experiences using Python across a broad spectrum of disciplines and applications. The goal of the workshop is to provide a platform for the community to present novel Python applications from a wide range of disciplines, to enable topical discussions regarding the use of Python, and to share experiences using Python in scientific computing and education.</p>
+<p>In bringing the community together, the workshop aims to help address the needs of the community and to help the community shape future directions in high-performance and scientific computing.</p>
+<h2>General Submission Guidance</h2>
+<p>We encourage authors to submit novel research on the broad use of Python in high-performance and scientific computing primarily, but also in data science, machine learning as well as broader topics in science, technology, engineering, education, mathematics or multidisciplinary topics.</p>
+<p>Please submit either a paper or lightning talk related to Python usage in any of the following topics and application areas, including but not limited to:</p>
+<ul>
+<li>High-Performance Computing, Big Data, Machine learning, and Data Science with Python</li>
+<li>Hybrid programming and integration with other programming languages</li>
+<li>Python compared to other languages for HPC and Data Science</li>
+<li>Python for emerging computing paradigms (e.g., quantum computing, neuromorphic computing, Probabilistic and stochastic computing</li>
+<li>Interactivity and reproducibility in HPC using Python</li>
+<li>Performance analysis, profiling, and debugging</li>
+<li>Administration of large HPC systems</li>
+<li>Scientific and interactive visualization</li>
+<li>Problem solving environments and frameworks</li>
+<li>Diversity, inclusivity and education in HPC and scientific computing</li>
+</ul>
+<p>Example submission ideas:</p>
+<ul>
+<li>Several libraries (e.g. Numba, Keras, Tensorflow) have emerged to close the gap between Python’s performance and those of classic high-performance computing languages in recent years. What are the novel applications and best practices using such libraries? </li>
+<li>How is Python used within current and future computing ecosystems? For example, how does Python compare to emerging languages or its use on novel computing architectures, such as quantum computers or neuromorphic systems?</li>
+<li>What are the novel ways in which Python is being used to facilitate training and education in high-performance and scientific computing and how does this compare to other approaches?</li>
+</ul>
+<h3>Call for Papers</h3>
+<p>We invite you to submit a paper with at least six (6) pages and up to ten (10) pages (including figures, tables and references) via the submission site:</p>
+<p><a class='block mx-auto p-4 border border-gray-600 rounded-md text-xl text-center' href='https://submissions.supercomputing.org/?page=Submit&id=SC20WorkshopPyHPCSubmission&site=sc20'>Submit Paper</a></p>
+<p>All accepted papers will be published in the IEEE TCHPC Proceedings. The formatting instructions are available at the <a href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html">IEEE website</a>. You can also use the template online on <a href="https://www.overleaf.com/latex/templates/ieee-demo-template-for-computer-society-conferences/hzzszpqfkqky">Overleaf</a>.</p>
+<p>Authors will be able to provide up to one (1) additional pages for the Artifact Description (AD) appendix and, after paper acceptance, up to two (2) additional pages for the Artifact Evaluation (AE) appendix</p>
+<h4>Reproducibility and Transparency Statement</h4>
+<p>For PyHPC 2020, we adopt the following approach based on the SC20 Transparency and Reproducibility Initiative:</p>
+<p><em>Artifact Description Appendix</em>: We will use the format of the SC20 appendix (with minor revisions) for PyHPC 2020 submissions. Authors will provide the completed appendix (at most 2 pages), along with their submission.</p>
+<p>Please keep accessibility in mind when preparing your paper, for example when creating graphs and images. See our <a href="/accessibility_guidance">accessibility guidance</a>.</p>
+<h3>Call for Lightning Talks</h3>
+<p>We invite you to submit a one-page application for a five-minute presentation to:</p>
+<p><a class='block mx-auto p-4 border border-gray-600 rounded-md text-xl text-center' href='mailto:sc-ws-pyhpc2020@info.supercomputing.org?subject=PyHPC20 Lightning Talk'>PyHPC Organizing Committee <em>sc-ws-pyhpc2020@info.supercomputing.org</em></a></p>
+<p>Please include <strong>PyHPC20 Lightning Talk</strong> in the Subject heading of your submission email.</p>
+<h4>Acceptance Criteria</h4>
+<p>Lightning talks will be accepted in accordance with relevance to the workshop, the number of available time slots, and the order in which applications are received.</p>
+<p>Please keep accessibility in mind when preparing presentation slides. See our <a href="/accessibility_guidance">accessibility guidance</a>.</p>
+<h2>Key Dates</h2>
+<table>
+<thead>
+<tr>
+<th>Event</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Submissions Open</td>
+<td>Monday 1 June</td>
+</tr>
+<tr>
+<td>Paper Submissions Due</td>
+<td>Friday 11 September</td>
+</tr>
+<tr>
+<td>Paper Author Notifications</td>
+<td>Monday 28 September</td>
+</tr>
+<tr>
+<td>Lightning Talk Submissions Due</td>
+<td>Thursday 1 October</td>
+</tr>
+<tr>
+<td>Lightning Talk Author Notifications</td>
+<td>Monday 5 October</td>
+</tr>
+<tr>
+<td>Paper Camera Ready</td>
+<td>Thursday 8 October</td>
+</tr>
+<tr>
+<td>Paper Presentation Recordings</td>
+<td>Thursday 8 October</td>
+</tr>
+<tr>
+<td>Lightning Talk Presentation Slides</td>
+<td>Thursday 8 October</td>
+</tr>
+<tr>
+<td>Workshop Date</td>
+<td>Friday 13 November</td>
+</tr>
+</tbody>
+</table>
+<h2>Organizing Committee</h2>
+<ul>
+<li>William Scullin, <em>Laboratory for Laser Energetics, University of Rochester</em></li>
+<li>Neelofer Banglawala, <em>EPCC, University of Edinburgh (EPCC)</em></li>
+<li>Rosa M. Badia, <em>Barcelona Supercomputing Centre</em></li>
+<li>James Clark, <em>Zapata Computing</em> and <em>Hartree Centre - UK Research and Innovation</em></li>
+</ul>
+<h2>Program Committee</h2>
+<ul>
+<li>Bill Spotz, <em>Department of Energy</em></li>
+<li>Rollin Thomas, <em>Lawrence Berkeley National Laboratory</em></li>
+<li>Laurie Stephey, <em>Lawrence Berkeley National Laboratory</em></li>
+<li>Adrian Jackson, <em>EPCC, University of Edinburgh (EPCC)</em></li>
+<li>Martin Callaghan, <em>University of Leeds</em></li>
+<li>Javier Conejero, <em>Barcelona Supercomputing Centre</em></li>
+<li>Elliot Slaughter, <em>Stanford University</em></li>
+<li>Dan Katz, <em>University of Illinois</em></li>
+<li>Tim Powell, <em>Hartree Centre - UK Research and Innovation</em></li>
+</ul>
+<p>PyHPC is committed to <a href="/inclusivity_statement">inclusivity and accessibility</a></p>
+    </div>
+</article>
+        </div>
+        <!-- Footer -->
+        <footer class="bg-gray-100">
+            <div class="bg-gray-100 pt-2 ">
+                <div class="flex pb-5 px-3 m-auto pt-5 border-t text-gray-800 text-sm flex-row max-w-6xl">
+                    <div class="flex flex-row items-center mt-2 space-x-6 sm:space-x-12">
+                        <a class="py-2 border-b-2 border-transparent hover:border-indigo-400 w-32" href="https://sc20.supercomputing.org">
+    <img aria-hidden="true" class="w-full h-full" alt="SC20 Logo" src="https://www.pyhpc.io/static/images/sc20_color_black_hor@4x.png" />
+    <span class="sr-only">SC20</span>
+</a>
+
+                        <a class="py-2 border-b-2 border-transparent hover:border-indigo-400 w-32" href="https://tc.computer.org/tchpc/">
+    <img aria-hidden="true" class="w-full h-full" alt="IEEE TCHPC Logo" src="https://www.pyhpc.io/static/images/tchpc_logo.png" />
+    <span class="sr-only">IEEE TCHPC</span>
+</a>
+
+                    </div>
+                    <div class="flex-auto flex-row-reverse mt-2 flex">
+                        <a href="https://twitter.com/PythonHPC" class="w-8 mx-1">
+                            <svg class="fill-current cursor-pointer text-blue-500 hover:text-gray-400" width="100%"
+                                height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                                xmlns:serif="http://www.serif.com/"
+                                style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+                                <path id="Twitter" d="M24,12c0,6.627 -5.373,12 -12,12c-6.627,0 -12,-5.373 -12,-12c0,-6.627
+                           5.373,-12 12,-12c6.627,0 12,5.373 12,12Zm-6.465,-3.192c-0.379,0.168
+                           -0.786,0.281 -1.213,0.333c0.436,-0.262 0.771,-0.676
+                           0.929,-1.169c-0.408,0.242 -0.86,0.418 -1.341,0.513c-0.385,-0.411
+                           -0.934,-0.667 -1.541,-0.667c-1.167,0 -2.112,0.945 -2.112,2.111c0,0.166
+                           0.018,0.327 0.054,0.482c-1.754,-0.088 -3.31,-0.929
+                           -4.352,-2.206c-0.181,0.311 -0.286,0.674 -0.286,1.061c0,0.733 0.373,1.379
+                           0.94,1.757c-0.346,-0.01 -0.672,-0.106 -0.956,-0.264c-0.001,0.009
+                           -0.001,0.018 -0.001,0.027c0,1.023 0.728,1.877 1.694,2.07c-0.177,0.049
+                           -0.364,0.075 -0.556,0.075c-0.137,0 -0.269,-0.014 -0.397,-0.038c0.268,0.838
+                           1.048,1.449 1.972,1.466c-0.723,0.566 -1.633,0.904 -2.622,0.904c-0.171,0
+                           -0.339,-0.01 -0.504,-0.03c0.934,0.599 2.044,0.949 3.237,0.949c3.883,0
+                           6.007,-3.217 6.007,-6.008c0,-0.091 -0.002,-0.183 -0.006,-0.273c0.413,-0.298
+                           0.771,-0.67 1.054,-1.093Z"></path>
+                            </svg>
+                            <span class="sr-only">PyHPC Twitter</span>
+                        </a>
+                    </div>
+                </div>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,563 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Program - PyHPC</title>
+    <meta name="title" content="Program - PyHPC">
+    <meta name="description" content="PyHPC 2020 program">
+
+    <meta property="og:title" content="Program - PyHPC">
+    <meta property="og:site_name" content="PyHPC">
+    <meta property="og:url" content="https://www.pyhpc.io/program">
+    <meta property="og:description" content="PyHPC 2020 program">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.pyhpc.io/static/images/pyhpc_logo_og.png">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@PythonHPC">
+
+    <link rel="stylesheet" href="https://www.pyhpc.io/theme/css/style.css" />
+    <link rel="stylesheet" href="https://www.pyhpc.io/theme/css/pygments.css" defer />
+    <script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.3/dist/alpine.min.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.3/dist/alpine-ie11.min.js" defer></script>
+
+    <link href="feeds/all.atom.xml" rel="alternate" title="PyHPC" type="application/atom+xml">
+</head>
+
+<body class="bg-gray-100">
+    <div class="flex flex-col h-screen justify-between">
+        <!-- Header and Navigation -->
+        <div class="w-full bg-white border-b border-gray-200">
+            <header x-data="{ open: false }"
+                class="flex flex-col max-w-screen-xl mx-auto px-6 py-2 lg:px-16 lg:py-2 md:items-center md:justify-between md:flex-row">
+                <div class="flex-1 flex justify-between items-center">
+                    <a class="py-2 border-b-2 border-transparent hover:border-indigo-400 h-12 p-1" href="/">
+    <img aria-hidden="true" class="h-full" alt="PyHPC Logo" src="https://www.pyhpc.io/static/images/pyhpc_logo.png" />
+    <span class="sr-only">PyHPC</span>
+</a>
+
+                    <button aria-label="Toggle navigation"
+                        class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
+                        <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                            <path x-show="!open" fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                            <path x-show="open" fill-rule="evenodd"
+                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+                <nav :class="{'flex': open, 'hidden': !open}"
+                    class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
+                    <a href="/submissions"
+                        class="md:p-4 py-3 px-0 border-b-2 border-transparent hover:border-indigo-400">
+                        Call for Submissions
+                    </a>
+                    <a href="/program"
+                        class="md:p-4 py-3 px-0 border-b-2 border-transparent hover:border-indigo-400">
+                        Program
+                    </a>
+                    <a href="/updates"
+                        class="md:p-4 py-3 px-0 border-b-2 border-transparent hover:border-indigo-400">
+                        Updates
+                    </a>
+                    <a href="https://sc20.supercomputing.org/attend/register"
+                        class="md:p-4 py-3 px-0 border-b-2 border-transparent hover:border-indigo-400">
+                        Registration
+                        <svg class="inline w-4 h-4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
+                    <a href="https://twitter.com/PythonHPC"
+                        class="md:p-4 py-3 px-0 border-b-2 border-transparent hover:border-indigo-400">
+                        @PythonHPC
+                        <svg class="inline w-4 h-4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
+                </nav>
+            </header>
+        </div>
+        <!-- Main content -->
+        <div class="container mx-auto max-w-screen-xl mb-auto" role="main">
+<article class="px-3 mx-auto max-w-3xl">
+    <h1 class="leading-tight text-2xl md:text-4xl font-semibold mb-4 mt-6 pb-2">
+        Program    </h1>
+    <div class="markdown">
+        <div class="flex flex-col py-3 px-2  border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">10:00am - 10:05am EST</span>
+        <span class="text-sm uppercase tracking-wide">Introduction</span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">PyHPC 2020: 9th Workshop on Python for High-Performance and Scientific Computing</span>
+        </div>
+        <div class="space-y-2">
+
+        <div class="flex flex-col">
+            <div class="font-bold">Organizers</div>
+            <div class="">
+                <span class="">William Scullin, Neelofer Banglawala, Rosa M. Badia, James Clark</span>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2 bg-gray-200 border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">10:05am - 11:05am EST</span>
+        <span class="text-sm uppercase tracking-wide">Keynote</span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">Reprising the Zen of Python for HPC</span>
+        </div>
+        <div class="space-y-2">
+
+        <div class="flex flex-col">
+            <div class="font-bold">Presenter</div>
+            <div class="">
+                <span class="">Michael E. Bauer</span>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2  border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">11:00am - 11:15am EST</span>
+        <span class="text-sm uppercase tracking-wide">PyHPC Morning Break 1</span>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2 bg-gray-200 border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">11:15am - 12:15pm EST</span>
+        <span class="text-sm uppercase tracking-wide"></span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">Paper Session 1</span>
+        </div>
+        <div class="space-y-2">
+
+
+
+        </div>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2  border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">11:20am - 11:40am EST</span>
+        <span class="text-sm uppercase tracking-wide">Paper Session 1</span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">Experiences in Developing a Distributed Agent-Based Modeling Toolkit with Python</span>
+        </div>
+        <div class="space-y-2">
+        <div class="flex flex-col">
+            <div class="font-bold"><a alt="Slides for Experiences in Developing a Distributed Agent-Based Modeling Toolkit with Python" href='https://drive.google.com/file/d/13z8HtWWbFj1QJ0SzGM3MUb248pSH4KJ4/view?usp=sharing'>Slides</a></div>
+        </div>
+        <div class="flex flex-col">
+            <div class="font-bold">Author/Presenters</div>
+            <div class="">
+                <span class="">Nicholson T. Collier, Jonathan Ozik, Eric R. Tatara</span>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2 bg-gray-200 border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">11:40am - 12:00pm EST</span>
+        <span class="text-sm uppercase tracking-wide">Paper Session 1</span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">Data Engineering for HPC with Python</span>
+        </div>
+        <div class="space-y-2">
+        <div class="flex flex-col">
+            <div class="font-bold"><a alt="Slides for Data Engineering for HPC with Python" href='https://drive.google.com/file/d/1_1X89w8PEFloPxvejGvVV38Csy5KZxNl/view?usp=sharing'>Slides</a></div>
+        </div>
+        <div class="flex flex-col">
+            <div class="font-bold">Author/Presenters</div>
+            <div class="">
+                <span class="">Vibhatha Abeykoon, Niranda Perera, Chathura Widanage, Supun Kamburugamuve, Thejaka Amila Kanewala, Hasara Maithree, Pulasthi Wickramasinghe, Ahmet Uyar, Geoffrey C. Fox</span>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2  border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">12:15pm - 12:30pm EST</span>
+        <span class="text-sm uppercase tracking-wide">PyHPC Morning Break 2</span>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2 bg-gray-200 border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">12:30pm - 1:30pm EST</span>
+        <span class="text-sm uppercase tracking-wide">Keynote</span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">MPI for Python</span>
+        </div>
+        <div class="space-y-2">
+        <div class="flex flex-col">
+            <div class="font-bold"><a alt="Slides for MPI for Python" href='https://drive.google.com/file/d/1wIRyx8TbSWPrQyS0P_uWoKaAcIKi44Zy/view?usp=sharing'>Slides</a></div>
+        </div>
+        <div class="flex flex-col">
+            <div class="font-bold">Presenter</div>
+            <div class="">
+                <span class="">Lisandro Dalcin</span>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2  border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">1:30pm - 2:30pm EST</span>
+        <span class="text-sm uppercase tracking-wide">PyHPC Lunch Break</span>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2 bg-gray-200 border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">2:30pm - 3:30pm EST</span>
+        <span class="text-sm uppercase tracking-wide"></span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">Paper Session 2</span>
+        </div>
+        <div class="space-y-2">
+
+
+
+        </div>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2  border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">2:35pm - 2:55pm EST</span>
+        <span class="text-sm uppercase tracking-wide">Paper Session 2</span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">Enabling System Wide Shared Memory for Performance Improvement in PyCOMPSs Applications</span>
+        </div>
+        <div class="space-y-2">
+        <div class="flex flex-col">
+            <div class="font-bold"><a alt="Slides for Enabling System Wide Shared Memory for Performance Improvement in PyCOMPSs Applications" href='https://drive.google.com/file/d/1txEh14hiFUu--PHiyqUjVqVSLari6R3g/view?usp=sharing'>Slides</a></div>
+        </div>
+        <div class="flex flex-col">
+            <div class="font-bold">Author/Presenters</div>
+            <div class="">
+                <span class="">Clément Foyer, Javier Conejero, Jorge Ejarque, Rosa M. Badia, Adrian Tate, Simon McIntosh-Smith</span>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2 bg-gray-200 border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">2:55pm - 3:15pm EST</span>
+        <span class="text-sm uppercase tracking-wide">Paper Session 2</span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">Python Workflows on HPC Systems</span>
+        </div>
+        <div class="space-y-2">
+        <div class="flex flex-col">
+            <div class="font-bold"><a alt="Slides for Python Workflows on HPC Systems" href='https://drive.google.com/file/d/1yNqGIPzDgnsn_hY4HePAefv1cAeutgY6/view?usp=sharing'>Slides</a></div>
+        </div>
+        <div class="flex flex-col">
+            <div class="font-bold">Author/Presenters</div>
+            <div class="">
+                <span class="">Dominik Strassel, Philipp Nikolas Reusch, Janis Keuper</span>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2  border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">3:30pm - 3:45pm EST</span>
+        <span class="text-sm uppercase tracking-wide">PyHPC Afternoon Break 1</span>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2 bg-gray-200 border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">3:45pm - 4:45pm EST</span>
+        <span class="text-sm uppercase tracking-wide"></span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">Paper Session 3</span>
+        </div>
+        <div class="space-y-2">
+
+
+
+        </div>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2  border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">3:50pm - 4:10pm EST</span>
+        <span class="text-sm uppercase tracking-wide">Paper Session 3</span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">Accelerating Microstructural Analytics with Dask for Volumetric X-ray Imaging</span>
+        </div>
+        <div class="space-y-2">
+        <div class="flex flex-col">
+            <div class="font-bold"><a alt="Slides for Accelerating Microstructural Analytics with Dask for Volumetric X-ray Imaging" href='https://drive.google.com/file/d/1cFwVoLcI1nN7ifXpywXmiJWEqvU0ea0o/view?usp=sharing'>Slides</a></div>
+        </div>
+        <div class="flex flex-col">
+            <div class="font-bold">Author/Presenter</div>
+            <div class="">
+                <span class="">Daniela Ushizima</span>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2 bg-gray-200 border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">4:10pm - 4:30pm EST</span>
+        <span class="text-sm uppercase tracking-wide">Paper Session 3</span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">Distributed Asynchronous Array Computing with the JetLag Environment</span>
+        </div>
+        <div class="space-y-2">
+        <div class="flex flex-col">
+            <div class="font-bold"><a alt="Slides for Distributed Asynchronous Array Computing with the JetLag Environment" href='https://drive.google.com/file/d/1DmVOr94vju1-amHn2cn981LCstpE4GCy/view?usp=sharing'>Slides</a></div>
+        </div>
+        <div class="flex flex-col">
+            <div class="font-bold">Author/Presenter</div>
+            <div class="">
+                <span class="">Steven R. Brandt, Bita Hasheminezhad, Nanmiao Wu, Sayef A. Sakin, Alex R. Bigelow, Katherine E. Isaacs, Kevin Huck, Hartmut Kaiser</span>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2  border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">4:45pm - 4:55pm EST</span>
+        <span class="text-sm uppercase tracking-wide">PyHPC Afternoon Break 2</span>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2 bg-gray-200 border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">4:55pm - 5:30pm EST</span>
+        <span class="text-sm uppercase tracking-wide"></span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">Lightning Talks</span>
+        </div>
+        <div class="space-y-2">
+
+
+
+        </div>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2  border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">5:00pm - 5:05pm EST</span>
+        <span class="text-sm uppercase tracking-wide">Lightning Talks</span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">DaCe Python Frontend</span>
+        </div>
+        <div class="space-y-2">
+        <div class="flex flex-col">
+            <div class="font-bold"><a alt="Slides for DaCe Python Frontend" href='https://drive.google.com/file/d/1tKRcmLB4FsO6rKIdQSbB0Iy7OvX7fFnU/view?usp=sharing'>Slides</a></div>
+        </div>
+        <div class="flex flex-col">
+            <div class="font-bold">Presenter</div>
+            <div class="">
+                <span class="">Alexandros Ziogas</span>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2 bg-gray-200 border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">5:05pm - 5:10pm EST</span>
+        <span class="text-sm uppercase tracking-wide">Lightning Talks</span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">Linear Algebraic Graphs Algorithms in Python</span>
+        </div>
+        <div class="space-y-2">
+        <div class="flex flex-col">
+            <div class="font-bold"><a alt="Slides for Linear Algebraic Graphs Algorithms in Python" href='https://drive.google.com/file/d/1_BhIbp3e9oNVoH3hJTupxHAGYuG8ZkVC/view?usp=sharing'>Slides</a></div>
+        </div>
+        <div class="flex flex-col">
+            <div class="font-bold">Presenter</div>
+            <div class="">
+                <span class="">Ali Kazmi</span>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2  border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">5:10pm - 5:15pm EST</span>
+        <span class="text-sm uppercase tracking-wide">Lightning Talks</span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">Fil: A Python Memory Profiler for Scientific Computing</span>
+        </div>
+        <div class="space-y-2">
+        <div class="flex flex-col">
+            <div class="font-bold"><a alt="Slides for Fil: A Python Memory Profiler for Scientific Computing" href='https://drive.google.com/file/d/1F31tLqWJihwPUjT0DNJhquHHTBv5MFCe/view?usp=sharing'>Slides</a></div>
+        </div>
+        <div class="flex flex-col">
+            <div class="font-bold">Presenter</div>
+            <div class="">
+                <span class="">Itamar Turner-Trauring</span>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+<div class="flex flex-col py-3 px-2 bg-gray-200 border-b border-gray-500" style="margin-bottom:0 !important;">
+    <div class="w-full flex flex-row justify-between">
+        <span class="text-sm uppercase tracking-wide">5:15pm - 5:20pm EST</span>
+        <span class="text-sm uppercase tracking-wide">Lightning Talks</span>
+    </div>
+
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <span class="my-4 text-xl font-bold leading-tight">Validating Oil Spill Dispersion Models Against Real-World Observations Using The GeoPandas Library</span>
+        </div>
+        <div class="space-y-2">
+        <div class="flex flex-col">
+            <div class="font-bold"><a alt="Slides for Validating Oil Spill Dispersion Models Against Real-World Observations Using The GeoPandas Library" href='https://drive.google.com/file/d/1JZK39kR81fWJGCnEcuff-K18LRdULeFn/view?usp=sharing'>Slides</a></div>
+        </div>
+        <div class="flex flex-col">
+            <div class="font-bold">Presenter</div>
+            <div class="">
+                <span class="">Chris Dearden</span>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+</article>
+        </div>
+        <!-- Footer -->
+        <footer class="bg-gray-100">
+            <div class="bg-gray-100 pt-2 ">
+                <div class="flex pb-5 px-3 m-auto pt-5 border-t text-gray-800 text-sm flex-row max-w-6xl">
+                    <div class="flex flex-row items-center mt-2 space-x-6 sm:space-x-12">
+                        <a class="py-2 border-b-2 border-transparent hover:border-indigo-400 w-32" href="https://sc20.supercomputing.org">
+    <img aria-hidden="true" class="w-full h-full" alt="SC20 Logo" src="https://www.pyhpc.io/static/images/sc20_color_black_hor@4x.png" />
+    <span class="sr-only">SC20</span>
+</a>
+
+                        <a class="py-2 border-b-2 border-transparent hover:border-indigo-400 w-32" href="https://tc.computer.org/tchpc/">
+    <img aria-hidden="true" class="w-full h-full" alt="IEEE TCHPC Logo" src="https://www.pyhpc.io/static/images/tchpc_logo.png" />
+    <span class="sr-only">IEEE TCHPC</span>
+</a>
+
+                    </div>
+                    <div class="flex-auto flex-row-reverse mt-2 flex">
+                        <a href="https://twitter.com/PythonHPC" class="w-8 mx-1">
+                            <svg class="fill-current cursor-pointer text-blue-500 hover:text-gray-400" width="100%"
+                                height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                                xmlns:serif="http://www.serif.com/"
+                                style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+                                <path id="Twitter" d="M24,12c0,6.627 -5.373,12 -12,12c-6.627,0 -12,-5.373 -12,-12c0,-6.627
+                           5.373,-12 12,-12c6.627,0 12,5.373 12,12Zm-6.465,-3.192c-0.379,0.168
+                           -0.786,0.281 -1.213,0.333c0.436,-0.262 0.771,-0.676
+                           0.929,-1.169c-0.408,0.242 -0.86,0.418 -1.341,0.513c-0.385,-0.411
+                           -0.934,-0.667 -1.541,-0.667c-1.167,0 -2.112,0.945 -2.112,2.111c0,0.166
+                           0.018,0.327 0.054,0.482c-1.754,-0.088 -3.31,-0.929
+                           -4.352,-2.206c-0.181,0.311 -0.286,0.674 -0.286,1.061c0,0.733 0.373,1.379
+                           0.94,1.757c-0.346,-0.01 -0.672,-0.106 -0.956,-0.264c-0.001,0.009
+                           -0.001,0.018 -0.001,0.027c0,1.023 0.728,1.877 1.694,2.07c-0.177,0.049
+                           -0.364,0.075 -0.556,0.075c-0.137,0 -0.269,-0.014 -0.397,-0.038c0.268,0.838
+                           1.048,1.449 1.972,1.466c-0.723,0.566 -1.633,0.904 -2.622,0.904c-0.171,0
+                           -0.339,-0.01 -0.504,-0.03c0.934,0.599 2.044,0.949 3.237,0.949c3.883,0
+                           6.007,-3.217 6.007,-6.008c0,-0.091 -0.002,-0.183 -0.006,-0.273c0.413,-0.298
+                           0.771,-0.67 1.054,-1.093Z"></path>
+                            </svg>
+                            <span class="sr-only">PyHPC Twitter</span>
+                        </a>
+                    </div>
+                </div>
+        </footer>
+    </div>
+</body>
+
+</html>

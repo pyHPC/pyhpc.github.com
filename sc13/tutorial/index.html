@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>SC13 PyHPC Tutorial - PyHPC</title>
+    <meta name="title" content="SC13 PyHPC Tutorial - PyHPC">
+    <meta name="description" content="">
+
+    <meta property="og:title" content="SC13 PyHPC Tutorial - PyHPC">
+    <meta property="og:site_name" content="PyHPC">
+    <meta property="og:url" content="https://www.pyhpc.io/sc13/tutorial">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.pyhpc.io/static/images/pyhpc_logo_og.png">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@PythonHPC">
+
+    <link rel="stylesheet" href="https://www.pyhpc.io/theme/css/style.css" />
+    <link rel="stylesheet" href="https://www.pyhpc.io/theme/css/pygments.css" defer />
+    <script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.3/dist/alpine.min.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.3/dist/alpine-ie11.min.js" defer></script>
+
+    <link href="feeds/all.atom.xml" rel="alternate" title="PyHPC" type="application/atom+xml">
+</head>
+
+<body class="bg-gray-100">
+    <div class="flex flex-col h-screen justify-between">
+        <!-- Header and Navigation -->
+        <div class="w-full bg-white border-b border-gray-200">
+            <header x-data="{ open: false }"
+                class="flex flex-col max-w-screen-xl mx-auto px-6 py-2 lg:px-16 lg:py-2 md:items-center md:justify-between md:flex-row">
+                <div class="flex-1 flex justify-between items-center">
+                    <a class="py-2 border-b-2 border-transparent hover:border-indigo-400 h-12 p-1" href="/">
+    <img aria-hidden="true" class="h-full" alt="PyHPC Logo" src="https://www.pyhpc.io/static/images/pyhpc_logo.png" />
+    <span class="sr-only">PyHPC</span>
+</a>
+
+                    <button aria-label="Toggle navigation"
+                        class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
+                        <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                            <path x-show="!open" fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                            <path x-show="open" fill-rule="evenodd"
+                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+                <nav :class="{'flex': open, 'hidden': !open}"
+                    class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
+                    <a href="/submissions"
+                        class="md:p-4 py-3 px-0 border-b-2 border-transparent hover:border-indigo-400">
+                        Call for Submissions
+                    </a>
+                    <a href="/program"
+                        class="md:p-4 py-3 px-0 border-b-2 border-transparent hover:border-indigo-400">
+                        Program
+                    </a>
+                    <a href="/updates"
+                        class="md:p-4 py-3 px-0 border-b-2 border-transparent hover:border-indigo-400">
+                        Updates
+                    </a>
+                    <a href="https://sc20.supercomputing.org/attend/register"
+                        class="md:p-4 py-3 px-0 border-b-2 border-transparent hover:border-indigo-400">
+                        Registration
+                        <svg class="inline w-4 h-4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
+                    <a href="https://twitter.com/PythonHPC"
+                        class="md:p-4 py-3 px-0 border-b-2 border-transparent hover:border-indigo-400">
+                        @PythonHPC
+                        <svg class="inline w-4 h-4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
+                </nav>
+            </header>
+        </div>
+        <!-- Main content -->
+        <div class="container mx-auto max-w-screen-xl mb-auto" role="main">
+<article class="px-3 mx-auto max-w-3xl">
+    <h1 class="leading-tight text-2xl md:text-4xl font-semibold mb-4 mt-6 pb-2">
+        SC13 PyHPC Tutorial    </h1>
+    <div class="markdown">
+        <p><a href="http://sc13.supercomputing.org/schedule/event_detail.php?evid=tut174">Mon, Nov 18, 8:30 - 17:00</a></p>
+<p>Almost every year since 2009 there has been a Python tutorial at SC.  The content below reflects the most recent version of the content presented.</p>
+<h2>Schedule</h2>
+<table>
+<tr><th>Time</th><th>Presenter</th><th>Topic</th><th>Materials</th></tr>
+<tr><td>08:30 - 10:00</td><td>Andy R. Terrel</td><td>Introduction to
+Python</td><td><a
+href="/static/tutorial/IntroducingPython/slides/1_Intro.html">[html]</a>, <a href="/static/tutorial/IntroducingPython/slides/1_Intro.pdf">[pdf]</a></td></tr>
+<tr><td>10:00 - 10:30</td><td></td><td>Break</td><td></td></tr>
+<tr><td>10:30 - 12:00</td><td>Kurt Smith</td><td>Speeding Python with
+Cython</td><td><a
+href="/static/tutorial/SpeedingPython/slides/2_Cython.pptx">[pptx]</a>,<a
+href="/static/tutorial/SpeedingPython/slides/2_Cython.pdf">[pdf]</a>, <a
+href="/static/tutorial/SpeedingPython/pyhpc-cython.zip">[code zip]</a><td></td></tr>
+<tr><td>12:00 - 13:00</td><td></td><td>Lunch</td></td></tr>
+<tr><td>13:00 - 14:30</td><td>Aron Ahmadia</td><td>Scaling Python with
+MPI</td><td>
+<a
+href="http://nbviewer.ipython.org/urls/raw.github.com/pyHPC/pyhpc-tutorial/master/notebooks/03_Scaling_Python.ipynb">[mpi notebook]</a>, 
+<a
+href="http://nbviewer.ipython.org/urls/raw.github.com/pyHPC/pyhpc-tutorial/master/examples/scale/2D%20Cavity%20Flow%20using%20petsc4py.ipynb">[petsc4py notebook], 
+<a
+href="http://nbviewer.ipython.org/urls/raw.github.com/pyHPC/pyhpc-tutorial/master/examples/scale/Quadrants%20Example.ipynb">[pyclaw notebook], <a
+href="/static/tutorial/ScalingPython/scale.zip">[code zip]</a></td></tr>
+<tr><td>14:30 - 15:00</td><td></td><td>Break</td><td></td></tr>
+<tr><td>15:00 - 16:30</td><td>Travis Oliphant</td><td>Python and Big Data</td><td><a href="/static/tutorial/DataPython/slides/4a_Data_Pandas.pdf">[pdf a]</a>, <a href="/static/tutorial/DataPython/slides/4b_MapReduce.pdf">[pdf b]</a>, <a href="/static/tutorial/DataPython/slides/4c_IPCluster.pdf">[pdf c]</a>, <a href="/static/tutorial/DataPython/slides/4d_Data_Exploration.pdf">[pdf d]</a></td></tr>
+<tr><td>16:30 - 17:00</td><td></td><td>Open Discussion</td><td></td></tr>
+</table>
+
+<h2>Resources</h2>
+<h3>Python Packagers</h3>
+<ul>
+<li><a href="http://docs.continuum.io/anaconda/">Anaconda</a></li>
+<li><a href="https://www.enthought.com/products/canopy/">Canopy</a></li>
+<li><a href="http://hashdist.readthedocs.org/en/latest/">HashDist</a></li>
+</ul>
+<h3>Additional Tutorials</h3>
+<ul>
+<li><a href="http://scipy-lectures.github.io/">SciPy Lectures</a></li>
+</ul>
+    </div>
+</article>
+        </div>
+        <!-- Footer -->
+        <footer class="bg-gray-100">
+            <div class="bg-gray-100 pt-2 ">
+                <div class="flex pb-5 px-3 m-auto pt-5 border-t text-gray-800 text-sm flex-row max-w-6xl">
+                    <div class="flex flex-row items-center mt-2 space-x-6 sm:space-x-12">
+                        <a class="py-2 border-b-2 border-transparent hover:border-indigo-400 w-32" href="https://sc20.supercomputing.org">
+    <img aria-hidden="true" class="w-full h-full" alt="SC20 Logo" src="https://www.pyhpc.io/static/images/sc20_color_black_hor@4x.png" />
+    <span class="sr-only">SC20</span>
+</a>
+
+                        <a class="py-2 border-b-2 border-transparent hover:border-indigo-400 w-32" href="https://tc.computer.org/tchpc/">
+    <img aria-hidden="true" class="w-full h-full" alt="IEEE TCHPC Logo" src="https://www.pyhpc.io/static/images/tchpc_logo.png" />
+    <span class="sr-only">IEEE TCHPC</span>
+</a>
+
+                    </div>
+                    <div class="flex-auto flex-row-reverse mt-2 flex">
+                        <a href="https://twitter.com/PythonHPC" class="w-8 mx-1">
+                            <svg class="fill-current cursor-pointer text-blue-500 hover:text-gray-400" width="100%"
+                                height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                                xmlns:serif="http://www.serif.com/"
+                                style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+                                <path id="Twitter" d="M24,12c0,6.627 -5.373,12 -12,12c-6.627,0 -12,-5.373 -12,-12c0,-6.627
+                           5.373,-12 12,-12c6.627,0 12,5.373 12,12Zm-6.465,-3.192c-0.379,0.168
+                           -0.786,0.281 -1.213,0.333c0.436,-0.262 0.771,-0.676
+                           0.929,-1.169c-0.408,0.242 -0.86,0.418 -1.341,0.513c-0.385,-0.411
+                           -0.934,-0.667 -1.541,-0.667c-1.167,0 -2.112,0.945 -2.112,2.111c0,0.166
+                           0.018,0.327 0.054,0.482c-1.754,-0.088 -3.31,-0.929
+                           -4.352,-2.206c-0.181,0.311 -0.286,0.674 -0.286,1.061c0,0.733 0.373,1.379
+                           0.94,1.757c-0.346,-0.01 -0.672,-0.106 -0.956,-0.264c-0.001,0.009
+                           -0.001,0.018 -0.001,0.027c0,1.023 0.728,1.877 1.694,2.07c-0.177,0.049
+                           -0.364,0.075 -0.556,0.075c-0.137,0 -0.269,-0.014 -0.397,-0.038c0.268,0.838
+                           1.048,1.449 1.972,1.466c-0.723,0.566 -1.633,0.904 -2.622,0.904c-0.171,0
+                           -0.339,-0.01 -0.504,-0.03c0.934,0.599 2.044,0.949 3.237,0.949c3.883,0
+                           6.007,-3.217 6.007,-6.008c0,-0.091 -0.002,-0.183 -0.006,-0.273c0.413,-0.298
+                           0.771,-0.67 1.054,-1.093Z"></path>
+                            </svg>
+                            <span class="sr-only">PyHPC Twitter</span>
+                        </a>
+                    </div>
+                </div>
+        </footer>
+    </div>
+</body>
+
+</html>
