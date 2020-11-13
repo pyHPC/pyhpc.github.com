@@ -36,6 +36,7 @@
                 "time": "11:20am - 11:40am EST",
                 "title": "Experiences in Developing a Distributed Agent-Based Modeling Toolkit with Python",
                 "author_type": "Author/Presenters",
+                "slides": "https://drive.google.com/file/d/13z8HtWWbFj1QJ0SzGM3MUb248pSH4KJ4/view?usp=sharing",
                 "authors": [
                     "Nicholson T. Collier",
                     "Jonathan Ozik",
@@ -46,6 +47,7 @@
                 "time": "11:40am - 12:00pm EST",
                 "title": "Data Engineering for HPC with Python",
                 "author_type": "Author/Presenters",
+                "slides": "https://drive.google.com/file/d/1_1X89w8PEFloPxvejGvVV38Csy5KZxNl/view?usp=sharing",
                 "authors": [
                     "Vibhatha Abeykoon",
                     "Niranda Perera",
@@ -71,6 +73,7 @@
         "section": "Keynote",
         "title": "MPI for Python",
         "author_type": "Presenter",
+        "slides": "https://drive.google.com/file/d/1wIRyx8TbSWPrQyS0P_uWoKaAcIKi44Zy/view?usp=sharing",
         "authors": [
             "Lisandro Dalcin"
         ]
@@ -89,6 +92,7 @@
                 "time": "2:35pm - 2:55pm EST",
                 "title": "Enabling System Wide Shared Memory for Performance Improvement in PyCOMPSs Applications",
                 "author_type": "Author/Presenters",
+                "slides": "https://drive.google.com/file/d/1txEh14hiFUu--PHiyqUjVqVSLari6R3g/view?usp=sharing",
                 "authors": [
                     "Clément Foyer",
                     "Javier Conejero",
@@ -102,6 +106,7 @@
                 "time": "2:55pm - 3:15pm EST",
                 "title": "Python Workflows on HPC Systems",
                 "author_type": "Author/Presenters",
+                "slides": "https://drive.google.com/file/d/1yNqGIPzDgnsn_hY4HePAefv1cAeutgY6/view?usp=sharing",
                 "authors": [
                     "Dominik Strassel",
                     "Philipp Nikolas Reusch",
@@ -124,6 +129,7 @@
                 "time": "3:50pm - 4:10pm EST",
                 "title": "Accelerating Microstructural Analytics with Dask for Volumetric X-ray Imaging",
                 "author_type": "Author/Presenter",
+                "slides": "https://drive.google.com/file/d/1cFwVoLcI1nN7ifXpywXmiJWEqvU0ea0o/view?usp=sharing",
                 "authors": [
                     "Daniela Ushizima"
                 ]
@@ -132,6 +138,7 @@
                 "time": "4:10pm - 4:30pm EST",
                 "title": "Distributed Asynchronous Array Computing with the JetLag Environment",
                 "author_type": "Author/Presenter",
+                "slides": "https://drive.google.com/file/d/1DmVOr94vju1-amHn2cn981LCstpE4GCy/view?usp=sharing",
                 "authors": [
                     "Steven R. Brandt",
                     "Bita Hasheminezhad",
@@ -159,6 +166,7 @@
                 "time": "5:00pm - 5:05pm EST",
                 "title": "DaCe Python Frontend",
                 "author_type": "Presenter",
+                "slides": "https://drive.google.com/file/d/1tKRcmLB4FsO6rKIdQSbB0Iy7OvX7fFnU/view?usp=sharing",
                 "authors": [
                     "Alexandros Ziogas"
                 ]
@@ -167,6 +175,7 @@
                 "time": "5:05pm - 5:10pm EST",
                 "title": "Linear Algebraic Graphs Algorithms in Python",
                 "author_type": "Presenter",
+                "slides": "https://drive.google.com/file/d/1_BhIbp3e9oNVoH3hJTupxHAGYuG8ZkVC/view?usp=sharing",
                 "authors": [
                     "Ali Kazmi"
                 ]
@@ -175,6 +184,7 @@
                 "time": "5:10pm - 5:15pm EST",
                 "title": "Fil: A Python Memory Profiler for Scientific Computing",
                 "author_type": "Presenter",
+                "slides": "https://drive.google.com/file/d/1F31tLqWJihwPUjT0DNJhquHHTBv5MFCe/view?usp=sharing",
                 "authors": [
                     "Itamar Turner-Trauring"
                 ]
@@ -183,6 +193,7 @@
                 "time": "5:15pm - 5:20pm EST",
                 "title": "Validating Oil Spill Dispersion Models Against Real-World Observations Using The GeoPandas Library",
                 "author_type": "Presenter",
+                "slides": "https://drive.google.com/file/d/1JZK39kR81fWJGCnEcuff-K18LRdULeFn/view?usp=sharing",
                 "authors": [
                     "Chris Dearden"
                 ]

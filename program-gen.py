@@ -38,6 +38,7 @@ def presentation_detail(talk, authors, section):
     author_list = presentation_author_list(talk["authors"]) if authors else ""
     author = ""
     abstract = ""
+    slides = ""
     if author_list != "":
         author = """<div class="flex flex-col">
             <div class="font-bold">""" + talk["author_type"] + """</div>
@@ -52,12 +53,17 @@ def presentation_detail(talk, authors, section):
                 """ + talk["abstract"] + """
             </div>
         </div>"""
+    if "slides" in talk:
+        slides = """<div class="flex flex-col">
+            <div class="font-bold"><a alt="Slides for """ + talk["title"] + """" href='""" + talk["slides"] + """'>Slides</a></div>
+        </div>"""
     return """
     <div class="flex-grow">
         <div class="flex flex-col">
             """ + presentation_title(talk["title"]) + """
         </div>
         <div class="space-y-2">
+        """ + slides + """
         """ + author + """
         """ + abstract + """
         </div>
@@ -85,9 +91,9 @@ if __name__ == "__main__":
         raise Exception("Missing argument: program.json")
     program = sys.argv[1]
     print("""Title: Program
-    Description: The program for PyHPC 2020 will be available closer to the workshop date.
-    URL: program
-    Save_as: program/index.html""")
+Description: PyHPC 2020 program
+URL: program
+Save_as: program/index.html""")
     with open(program) as f:
         j = json.load(f)
         i = 0
