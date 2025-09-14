@@ -1,7 +1,7 @@
-www.pyhpc.io
+www.pyhpc.org
 ============
 
-This repository contains the landing page and blog for www.pyhpc.io. 
+This repository contains the landing page and blog for www.pyhpc.org. 
 
 ## Contributing
 
